@@ -2,5 +2,11 @@
   { "name": "Ruffy", "image": "ruffy.jpg" },
   { "name": "Zoro", "image": "zoro.jpg" },
   { "name": "Nami", "image": "nami.jpg" },
-  { "name": "Sanji", "image": "sanji.jpg" }
+  { "name": "Sanji", "image": "sanji.jpg" },
+  { "name": "Usopp", "image": "usopp.jpg" },
+  { "name": "Nico Robin", "image": "nico_robin.jpg" },
+  { "name": "Tony Chopper", "image": "tony_chopper.jpg" },
+  { "name": "Franky", "image": "franky.jpg" },
+  { "name": "Brook", "image": "brook.jpg" },
+  { "name": "Jinbe", "image": "jinbe.jpg" }
 ]

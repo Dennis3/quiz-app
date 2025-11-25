@@ -98,11 +98,20 @@ button:hover {
   }
 }
 
-/* Touch-Geräte: Hover komplett deaktivieren */
-@media (hover: none) {
-  button:hover,
-  #options button:hover {
-    transform: none !important;
-    background-color: inherit !important;
+/* Mobile Tap Animation (nur Touch-Geräte) */
+@media (hover: none) and (pointer: coarse) {
+
+  #options button,
+  #menu button,
+  #back-button {
+    transition: background-color 0.1s, transform 0.08s;
+  }
+
+  #options button:active,
+  #menu button:active,
+  #back-button:active {
+    transform: scale(0.95);               /* kleiner als normal */
+    filter: brightness(0.85);             /* dunkler für Tap-Feedback */
+    -webkit-tap-highlight-color: transparent;
   }
 }

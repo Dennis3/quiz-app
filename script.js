@@ -1,64 +1,100 @@
-let allData = [];
 let questions = [];
-let currentIndex = 0;
+let currentQuestion = 0;
 let score = 0;
 
-async function startCategory(category) {
-  const menu = document.getElementById('menu');
-  const quiz = document.getElementById('quiz');
-
-  menu.classList.add('hidden');
-  quiz.classList.remove('hidden');
-
-  const response = await fetch(`${category}.json`);
-  allData = await response.json();
-
-  questions = shuffle(allData).slice(0, 10);
-  currentIndex = 0;
+// Kategorie starten und JSON laden
+function startCategory(category) {
+  document.getElementById('menu').classList.add('hidden');
+  document.getElementById('quiz').classList.remove('hidden');
+  currentQuestion = 0;
   score = 0;
 
-  loadQuestion();
+  fetch(`questions/${category}.json`)
+    .then(res => res.json())
+    .then(data => {
+      // Bildpfad aus /images hinzufügen
+      questions = data.map(q => ({
+        ...q,
+        image: `images/${category}/${q.image}` // Unterordner nach Kategorie
+      }));
+      showQuestion();
+    })
+    .catch(err => console.error('Fehler beim Laden der Kategorie:', err));
 }
 
-function loadQuestion() {
-  const q = questions[currentIndex];
-  document.getElementById('question-image').src = `images/${q.image}`;
+// Hilfsfunktion: zufällige Auswahlmöglichkeiten erstellen
+function getOptions(correctName) {
+  let otherOptions = questions
+    .map(q => q.name)
+    .filter(name => name !== correctName);
 
-  const optionsDiv = document.getElementById('options');
-  optionsDiv.innerHTML = '';
+  shuffleArray(otherOptions);
 
-  const options = getOptions(q, allData);
-  options.forEach(opt => {
-    const btn = document.createElement('button');
-    btn.textContent = opt.name;
-    btn.onclick = () => checkAnswer(opt, q);
-    optionsDiv.appendChild(btn);
-  });
-
-  document.getElementById('progress').textContent = `${currentIndex + 1} / ${questions.length}`;
+  let options = otherOptions.slice(0, 3); // 3 zufällige falsche Antworten
+  options.push(correctName);
+  shuffleArray(options);
+  return options;
 }
 
-function checkAnswer(selected, correct) {
-  if (selected.name === correct.name) score++;
-
-  currentIndex++;
-  if (currentIndex < questions.length) {
-    loadQuestion();
-  } else {
-    endQuiz();
+// Array mischen
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
   }
 }
 
-function endQuiz() {
-  const quiz = document.getElementById('quiz');
-  quiz.innerHTML = `<h2>Fertig!</h2><p>Punkte: ${score} / ${questions.length}</p>`;
+// Frage anzeigen
+function showQuestion() {
+  const question = questions[currentQuestion];
+  const imageEl = document.getElementById('question-image');
+  const optionsEl = document.getElementById('options');
+  const progressEl = document.getElementById('progress');
+
+  imageEl.src = question.image;
+  imageEl.classList.remove('hidden');
+  optionsEl.innerHTML = '';
+
+  const options = getOptions(question.name);
+
+  options.forEach(option => {
+    const btn = document.createElement('button');
+    btn.textContent = option;
+    btn.onclick = () => checkAnswer(option);
+    optionsEl.appendChild(btn);
+  });
+
+  progressEl.textContent = `Frage ${currentQuestion + 1} / ${questions.length}`;
+  progressEl.classList.remove('hidden');
+  document.getElementById('results').classList.add('hidden');
 }
 
-function getOptions(correct, data) {
-  const wrong = shuffle(data.filter(c => c.name !== correct.name)).slice(0, 3);
-  return shuffle([...wrong, correct]);
+// Antwort prüfen
+function checkAnswer(selected) {
+  if (selected === questions[currentQuestion].name) score++;
+  currentQuestion++;
+  if (currentQuestion < questions.length) {
+    showQuestion();
+  } else {
+    showResults();
+  }
 }
 
-function shuffle(arr) {
-  return arr.sort(() => 0.5 - Math.random());
+// Ergebnisse anzeigen
+function showResults() {
+  document.getElementById('options').innerHTML = '';
+  document.getElementById('question-image').classList.add('hidden');
+  document.getElementById('progress').classList.add('hidden');
+
+  document.getElementById('score').textContent = `Dein Punktestand: ${score} / ${questions.length}`;
+  document.getElementById('results').classList.remove('hidden');
+}
+
+// Zurück zum Hauptmenü
+function backToMenu() {
+  document.getElementById('results').classList.add('hidden');
+  document.getElementById('quiz').classList.add('hidden');
+  document.getElementById('menu').classList.remove('hidden');
+  document.getElementById('question-image').classList.remove('hidden');
+  document.getElementById('progress').classList.remove('hidden');
 }

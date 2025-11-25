@@ -1,22 +1,30 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>One Piece Quiz</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>One Piece Quiz</h1>
+  <div class="container">
+    <h1>One Piece Quiz</h1>
 
-  <div id="menu">
-    <button onclick="startCategory('characters')">Charakter raten</button>
-  </div>
+    <div id="menu">
+      <button onclick="startCategory('characters')">Charakter raten</button>
+      <!-- <button onclick="startCategory('devilfruits')">Teufelsfrucht raten</button> -->
+      <!-- Weitere Kategorien hier hinzufügen -->
+    </div>
 
-  <div id="quiz" class="hidden">
-    <img id="question-image" src="" alt="Bild" />
-    <div id="options"></div>
-    <div id="progress"></div>
+    <div id="quiz" class="hidden">
+      <img id="question-image" src="" alt="Bild">
+      <div id="options"></div>
+      <div id="progress"></div>
+      <div id="results" class="hidden">
+        <div id="score"></div>
+        <button id="back-button" onclick="backToMenu()">Zurück zum Hauptmenü</button>
+      </div>
+    </div>
   </div>
 
   <script src="script.js"></script>

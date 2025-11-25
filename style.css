@@ -86,3 +86,23 @@ button:hover {
 #back-button:hover {
   background-color: #ef6c00;
 }
+
+/* Hover-Effekte nur für Geräte mit Maus */
+@media (hover: hover) {
+  button:hover {
+    transform: scale(1.05);
+  }
+
+  #options button:hover {
+    background-color: #0d47a1;
+  }
+}
+
+/* Touch-Geräte: Hover komplett deaktivieren */
+@media (hover: none) {
+  button:hover,
+  #options button:hover {
+    transform: none !important;
+    background-color: inherit !important;
+  }
+}

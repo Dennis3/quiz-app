@@ -64,14 +64,6 @@ function showQuestion() {
     optionsEl.appendChild(btn);
   });
 
-  // >>> HIER EINSETZEN <<<
-  const optionButtons = optionsEl.querySelectorAll('button');
-  optionButtons.forEach(btn => {
-    btn.addEventListener('touchend', () => btn.blur());
-    btn.addEventListener('click', () => btn.blur());
-  });
-  // <<< HIER ENDE <<<
-
   progressEl.textContent = `Frage ${currentQuestion + 1} / ${questions.length}`;
   progressEl.classList.remove('hidden');
   document.getElementById('results').classList.add('hidden');

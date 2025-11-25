@@ -35,14 +35,6 @@ button:hover {
   transform: scale(1.05);
 }
 
-button:focus {
-  outline: none; /* Entfernt Highlight/Fokus auf allen Buttons nach Klick */
-}
-
-button:active {
-  background-color: inherit; /* oder setze die normale Farbe */
-}
-
 .hidden {
   display: none;
 }

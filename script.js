@@ -2,6 +2,21 @@ let questions = [];
 let currentQuestion = 0;
 let score = 0;
 
+// Mobile Tap Effekt sicher setzen/entfernen
+function addTapEffect(btn) {
+  btn.addEventListener("touchstart", () => {
+    btn.classList.add("active-mobile");
+  });
+
+  btn.addEventListener("touchend", () => {
+    btn.classList.remove("active-mobile");
+  });
+
+  btn.addEventListener("touchcancel", () => {
+    btn.classList.remove("active-mobile");
+  });
+}
+
 // Kategorie starten und JSON laden
 function startCategory(category) {
   document.getElementById('menu').classList.add('hidden');
@@ -46,13 +61,7 @@ function shuffleArray(array) {
 
 // Frage anzeigen
 function showQuestion() {
-  // Aktive / gedrückte Styles von alten Buttons entfernen
-  document.querySelectorAll('#options button').forEach(b => {
-    b.classList.remove('active-mobile');
-    b.style.transform = '';
-    b.style.filter = '';
-  });
-  
+
   const question = questions[currentQuestion];
   const imageEl = document.getElementById('question-image');
   const optionsEl = document.getElementById('options');
@@ -67,17 +76,12 @@ function showQuestion() {
   options.forEach(option => {
     const btn = document.createElement('button');
     btn.textContent = option;
-    
-    btn.addEventListener("touchstart", () => {
-      btn.classList.add("active-mobile");
-    });
 
-btn.addEventListener("touchend", () => {
-  btn.classList.remove("active-mobile");
-});
+    // Mobile Tap Effekt
+    addTapEffect(btn);
 
-btn.onclick = () => checkAnswer(option);
-
+    // Antwort
+    btn.onclick = () => checkAnswer(option);
 
     optionsEl.appendChild(btn);
   });
@@ -86,7 +90,6 @@ btn.onclick = () => checkAnswer(option);
   progressEl.classList.remove('hidden');
   document.getElementById('results').classList.add('hidden');
 }
-
 
 // Antwort prüfen
 function checkAnswer(selected) {

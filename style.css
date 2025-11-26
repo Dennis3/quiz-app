@@ -27,13 +27,9 @@ button {
   background-color: #d32f2f;
   color: white;
   cursor: pointer;
-  transition: background-color 0.3s, transform 0.2s;
+  transition: background-color 0.3s, transform 0.1s, filter 0.1s;
 }
 
-button:hover {
-  background-color: #b71c1c;
-  transform: scale(1.05);
-}
 
 .hidden {
   display: none;
@@ -44,7 +40,6 @@ button:hover {
   width: 80%;
   margin: 10px auto;
 }
-
 
 #question-image {
   width: 200px;
@@ -64,10 +59,6 @@ button:hover {
   background-color: #1976d2;
 }
 
-#options button:hover {
-  background-color: #0d47a1;
-}
-
 #progress {
   margin-top: 15px;
   font-weight: bold;
@@ -83,14 +74,11 @@ button:hover {
   background-color: #f57c00;
 }
 
-#back-button:hover {
-  background-color: #ef6c00;
-}
-
-/* Hover-Effekte nur für Geräte mit Maus */
+/* Desktop Hover-Effekte */
 @media (hover: hover) {
   button:hover {
     transform: scale(1.05);
+    background-color: #b71c1c;
   }
 
   #options button:hover {
@@ -98,28 +86,11 @@ button:hover {
   }
 }
 
-/* Mobile Tap Animation (nur Touch-Geräte) */
+/* Mobile Tap-Effekt – KEIN :active MEHR */
 @media (hover: none) and (pointer: coarse) {
-
-  #options button,
-  #menu button,
-  #back-button {
-    transition: background-color 0.1s, transform 0.08s;
+  .active-mobile {
+    transform: scale(0.92);
+    filter: brightness(0.82);
+    transition: transform 0.08s, filter 0.08s;
   }
-
-  #options button:active,
-  #menu button:active,
-  #back-button:active {
-    transform: scale(0.95);               /* kleiner als normal */
-    filter: brightness(0.85);             /* dunkler für Tap-Feedback */
-    -webkit-tap-highlight-color: transparent;
-  }
-
-  /* Mobile-Tap Klasse, wird per JS gesetzt */
-.active-mobile {
-  transform: scale(0.95) !important;
-  filter: brightness(0.85) !important;
-  transition: transform 0.08s, filter 0.08s;
-}
-
 }

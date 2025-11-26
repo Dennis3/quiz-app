@@ -56,5 +56,19 @@
   { "name": "Quincy", "image": "quincy.jpg", "crew": "Kid Piraten" },
   { "name": "Hop", "image": "hop.jpg", "crew": "Kid Piraten" },
   { "name": "Emma", "image": "emma.jpg", "crew": "Kid Piraten" },
-  { "name": "Compo", "image": "compo.jpg", "crew": "Kid Piraten" }
+  { "name": "Compo", "image": "compo.jpg", "crew": "Kid Piraten" },
+
+  { "name": "Urouge", "image": "urouge.jpg", "crew": "Fallen Monk Piraten" },
+
+  { "name": "X Drake", "image": "x_drake.jpg", "crew": "Drake Piraten" },
+
+  { "name": "Trafalgar D. Water Law", "image": "trafalgar_d_water_law.jpg", "crew": "Herz Piraten" },
+  { "name": "Bepo", "image": "bepo.jpg", "crew": "Herz Piraten" },
+  { "name": "Penguin", "image": "penguin.jpg", "crew": "Herz Piraten" },
+  { "name": "Shachi", "image": "shachi.jpg", "crew": "Herz Piraten" },
+  { "name": "Jean Bart", "image": "jean_bart.jpg", "crew": "Herz Piraten" },
+  { "name": "Ikkaku", "image": "ikkaku.jpg", "crew": "Herz Piraten" },
+  { "name": "Uni", "image": "uni.jpg", "crew": "Herz Piraten" },
+  { "name": "Clione", "image": "clione.jpg", "crew": "Herz Piraten" },
+  { "name": "Hakugan", "image": "hakugan.jpg", "crew": "Herz Piraten" }
 ]

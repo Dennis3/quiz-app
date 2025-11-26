@@ -2,18 +2,29 @@ let questions = [];
 let currentQuestion = 0;
 let score = 0;
 
-// Mobile Tap Effekt sicher setzen/entfernen
-function addTapEffect(btn) {
-  btn.addEventListener("touchstart", () => {
+// Mobile + Desktop Tap Effekt zuverlässig setzen/entfernen
+function addTapEffect(btn, option) {
+  // Effekt bei Tippen / Click
+  btn.addEventListener("pointerdown", () => {
     btn.classList.add("active-mobile");
   });
 
-  btn.addEventListener("touchend", () => {
+  btn.addEventListener("pointerup", () => {
     btn.classList.remove("active-mobile");
   });
 
-  btn.addEventListener("touchcancel", () => {
+  btn.addEventListener("pointerleave", () => {
     btn.classList.remove("active-mobile");
+  });
+
+  btn.addEventListener("pointercancel", () => {
+    btn.classList.remove("active-mobile");
+  });
+
+  // Click-Fallback für Chrome iOS / Safari
+  btn.addEventListener("click", () => {
+    btn.classList.remove("active-mobile");
+    checkAnswer(option);
   });
 }
 
@@ -27,10 +38,9 @@ function startCategory(category) {
   fetch(`questions/${category}.json`)
     .then(res => res.json())
     .then(data => {
-      // Bildpfad aus /images hinzufügen
       questions = data.map(q => ({
         ...q,
-        image: `images/${category}/${q.image}` // Unterordner nach Kategorie
+        image: `images/${category}/${q.image}`
       }));
       showQuestion();
     })
@@ -45,7 +55,7 @@ function getOptions(correctName) {
 
   shuffleArray(otherOptions);
 
-  let options = otherOptions.slice(0, 3); // 3 zufällige falsche Antworten
+  let options = otherOptions.slice(0, 3);
   options.push(correctName);
   shuffleArray(options);
   return options;
@@ -61,7 +71,6 @@ function shuffleArray(array) {
 
 // Frage anzeigen
 function showQuestion() {
-
   const question = questions[currentQuestion];
   const imageEl = document.getElementById('question-image');
   const optionsEl = document.getElementById('options');
@@ -77,11 +86,8 @@ function showQuestion() {
     const btn = document.createElement('button');
     btn.textContent = option;
 
-    // Mobile Tap Effekt
-    addTapEffect(btn);
-
-    // Antwort
-    btn.onclick = () => checkAnswer(option);
+    // Mobile + Desktop Tap Effekt + Click-Fallback
+    addTapEffect(btn, option);
 
     optionsEl.appendChild(btn);
   });

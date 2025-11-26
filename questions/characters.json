@@ -1,4 +1,5 @@
 [
+  /* Struhhut Piraten */
   { "name": "Ruffy", "image": "ruffy.jpg" },
   { "name": "Zoro", "image": "zoro.jpg" },
   { "name": "Nami", "image": "nami.jpg" },
@@ -9,4 +10,17 @@
   { "name": "Franky", "image": "franky.jpg" },
   { "name": "Brook", "image": "brook.jpg" },
   { "name": "Jinbe", "image": "jinbe.jpg" }
+
+  /* Blackbeard Piraten */
+  { "name": "Marshall D. Teach", "image": "marshall_d_teach.jpg" },
+  { "name": "Jesus Burgess", "image": "jesus_burgess.jpg" },
+  { "name": "Shiryu", "image": "shiryu.jpg" },
+  { "name": "Van Augur", "image": "van_augur.jpg" },
+  { "name": "Avalo Pizarro", "image": "avalo_pizarro.jpg" },
+  { "name": "Laffitte", "image": "laffitte.jpg" },
+  { "name": "Catarina Devon", "image": "catarina_devon.jpg" },
+  { "name": "Sanjuan Wolf", "image": "sanjuan_wolf.jpg" },
+  { "name": "Vasco Shot", "image": "vasco_shot.jpg" },
+  { "name": "Doc Q", "image": "doc_q.jpg" },
+  { "name": "Kuzan", "image": "kuzan.jpg" }
 ]

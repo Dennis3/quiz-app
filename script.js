@@ -4,7 +4,6 @@ let score = 0;
 
 // Mobile + Desktop Tap Effekt zuverlässig setzen/entfernen
 function addTapEffect(btn, option) {
-  // Effekt bei Tippen / Click
   btn.addEventListener("pointerdown", () => {
     btn.classList.add("active-mobile");
   });
@@ -21,7 +20,6 @@ function addTapEffect(btn, option) {
     btn.classList.remove("active-mobile");
   });
 
-  // Click-Fallback für Chrome iOS / Safari
   btn.addEventListener("click", () => {
     btn.classList.remove("active-mobile");
     checkAnswer(option);
@@ -31,6 +29,8 @@ function addTapEffect(btn, option) {
 // Kategorie starten und JSON laden
 function startCategory(category) {
   document.getElementById('menu').classList.add('hidden');
+  document.getElementById('menu-title').classList.add('hidden');   // Header ausblenden
+  document.getElementById('menu-version').classList.add('hidden'); // Version ausblenden
   document.getElementById('quiz').classList.remove('hidden');
   currentQuestion = 0;
   score = 0;
@@ -85,10 +85,7 @@ function showQuestion() {
   options.forEach(option => {
     const btn = document.createElement('button');
     btn.textContent = option;
-
-    // Mobile + Desktop Tap Effekt + Click-Fallback
     addTapEffect(btn, option);
-
     optionsEl.appendChild(btn);
   });
 
@@ -123,6 +120,8 @@ function backToMenu() {
   document.getElementById('results').classList.add('hidden');
   document.getElementById('quiz').classList.add('hidden');
   document.getElementById('menu').classList.remove('hidden');
+  document.getElementById('menu-title').classList.remove('hidden');   // Header wieder anzeigen
+  document.getElementById('menu-version').classList.remove('hidden'); // Version wieder anzeigen
   document.getElementById('question-image').classList.remove('hidden');
   document.getElementById('progress').classList.remove('hidden');
 }

@@ -18,7 +18,8 @@ function addTapEffect(btn, option) {
 function openSettings() {
   document.getElementById('settings').classList.remove('hidden');
   document.getElementById('menu').classList.add('hidden');
-  document.getElementById('settings-btn').classList.add('hidden');
+  document.getElementById('settings-button').classList.add('hidden');
+  document.getElementById('menu-version').classList.add('hidden'); // Version ausblenden
 
   const saved = localStorage.getItem("questionAmount");
   if (saved) {
@@ -29,8 +30,10 @@ function openSettings() {
 function closeSettings() {
   document.getElementById('settings').classList.add('hidden');
   document.getElementById('menu').classList.remove('hidden');
-  document.getElementById('settings-btn').classList.remove('hidden');
+  document.getElementById('settings-button').classList.remove('hidden');
+  document.getElementById('menu-version').classList.remove('hidden'); // Version wieder einblenden
 }
+
 
 function saveSettings() {
   const amount = document.getElementById("questionAmount").value;
@@ -40,7 +43,7 @@ function saveSettings() {
 
 function startCategory(category) {
   document.getElementById('menu').classList.add('hidden');
-  document.getElementById('settings-btn').classList.add('hidden');
+  document.getElementById('settings-button').classList.add('hidden');
   document.getElementById('menu-title').classList.add('hidden');
   document.getElementById('menu-version').classList.add('hidden');
   document.getElementById('quiz').classList.remove('hidden');
@@ -139,5 +142,5 @@ function backToMenu() {
   document.getElementById('menu').classList.remove('hidden');
   document.getElementById('menu-title').classList.remove('hidden');
   document.getElementById('menu-version').classList.remove('hidden');
-  document.getElementById('settings-btn').classList.remove('hidden');
+  document.getElementById('settings-button').classList.remove('hidden');
 }

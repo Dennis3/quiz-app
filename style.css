@@ -1,4 +1,6 @@
-/* Grundlayout */
+/* =========================
+   Grundlayout
+========================= */
 body {
   font-family: 'Arial', sans-serif;
   background: linear-gradient(to bottom right, #fdd835, #ff6f00);
@@ -9,7 +11,6 @@ body {
   align-items: center;
 }
 
-/* Container */
 .container {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.95);
@@ -19,13 +20,16 @@ body {
   max-width: 400px;
   width: 90%;
   max-height: 90vh;
-  overflow-y: auto; 
+  overflow-y: auto;
   box-sizing: border-box;
+  position: relative;
 }
 
+/* =========================
+   Allgemeine Buttons
+========================= */
 button {
   padding: 12px 20px;
-  margin: 10px 0;
   font-size: 16px;
   border: none;
   border-radius: 8px;
@@ -39,18 +43,49 @@ button {
   display: none;
 }
 
+/* =========================
+   Hauptmenü Buttons
+========================= */
 #menu button {
   display: block;
   width: 80%;
-  margin: 10px auto;
+  margin: 15px auto 10px auto;
 }
 
-/* Settings Buttons nebeneinander */
+/* =========================
+   Footer (Settings + Version)
+========================= */
+#menu-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px; /* Abstand zu Spiel-Buttons */
+  padding: 0 10px;
+}
+
+#menu-footer button {
+  padding: 10px 16px;
+  font-size: 14px;
+}
+
+#menu-footer span {
+  font-size: 16px;
+  color: #ff6f00;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
+}
+
+/* =========================
+   Settings Bereich
+========================= */
+#settings {
+  text-align: center;
+}
+
 .settings-buttons {
   display: flex;
   justify-content: space-between;
-  gap: 10px;
   margin-top: 20px;
+  gap: 10px;
 }
 
 .settings-buttons button {
@@ -58,7 +93,9 @@ button {
   margin: 0;
 }
 
-/* Bild */
+/* =========================
+   Quiz Layout
+========================= */
 #question-image {
   width: 200px;
   height: 200px;
@@ -68,7 +105,6 @@ button {
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
-/* Antwortoptionen */
 #options button {
   display: block;
   margin: 8px auto;
@@ -76,6 +112,8 @@ button {
   width: 80%;
   font-size: 16px;
   background-color: #1976d2;
+  border-radius: 8px;
+  transition: transform 0.1s, filter 0.1s, background-color 0.2s;
 }
 
 #progress {
@@ -84,29 +122,31 @@ button {
   color: #ff6f00;
 }
 
+#results {
+  margin-top: 20px;
+}
+
 #back-button {
   margin-top: 20px;
   background-color: #f57c00;
 }
 
-/* Titel */
+/* =========================
+   Titel & Version
+========================= */
 #menu-title {
   font-size: 32px;
   color: #fdd835;
   text-shadow: 2px 2px 0 #d32f2f, 4px 4px 0 rgba(0,0,0,0.2);
-  margin-bottom: 5px;
+  margin: 10px 0 30px 0; /* oben 10px, unten 30px */
   background: linear-gradient(to right, #d32f2f, #ff6f00);
   padding: 10px 20px;
   border-radius: 10px;
 }
 
-#menu-version {
-  font-size: 18px;
-  color: #ff6f00;
-  text-shadow: 1px 1px 0 rgba(0,0,0,0.3);
-}
-
-/* Hover */
+/* =========================
+   Hover Effekte Desktop
+========================= */
 @media (hover: hover) {
   button:hover {
     transform: scale(1.05);
@@ -122,10 +162,29 @@ button {
   }
 }
 
-/* Mobile Touch */
+/* =========================
+   Mobile / Touch Effekte
+========================= */
 @media (hover: none) and (pointer: coarse) {
   .active-mobile {
     transform: scale(0.95);
     filter: brightness(0.85);
+  }
+
+  .container {
+    padding: 20px 15px;
+    max-height: 85vh;
+  }
+
+  #question-image {
+    width: 180px;
+    height: 180px;
+    margin: 10px 0;
+  }
+
+  #options button {
+    padding: 10px;
+    width: 90%;
+    font-size: 15px;
   }
 }

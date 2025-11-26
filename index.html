@@ -9,13 +9,15 @@
 <body>
   <div class="container">
     <h1 id="menu-title">One Piece Quiz</h1>
-    <h2 id="menu-version">1.6</h2>
 
     <div id="menu">
-      <button onclick="startCategory('characters')">Charakter raten</button>
+      <button onclick="startCategory('characters')">Charaktere</button>
     </div>
 
-    <button id="settings-btn" onclick="openSettings()">Einstellungen</button>
+    <div id="menu-footer">
+      <button id="settings-button" onclick="openSettings()">Einstellungen</button>
+      <span id="menu-version">1.7</span>
+    </div>
 
     <div id="settings" class="hidden">
       <h3>Einstellungen</h3>

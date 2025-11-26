@@ -1,23 +1,30 @@
+/* Grundlayout */
 body {
   font-family: 'Arial', sans-serif;
   background: linear-gradient(to bottom right, #fdd835, #ff6f00);
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+/* Container */
 .container {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.95);
-  padding: 40px;
+  padding: 30px 20px;
   border-radius: 15px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
   max-width: 400px;
   width: 90%;
+  /* Nicht die volle Höhe auf Handy */
+  max-height: 90vh;
+  overflow-y: auto; 
+  box-sizing: border-box;
 }
 
+/* Standard Button */
 button {
   padding: 12px 20px;
   margin: 10px 0;
@@ -30,48 +37,58 @@ button {
   transition: background-color 0.3s, transform 0.1s, filter 0.1s;
 }
 
-
+/* Versteckte Elemente */
 .hidden {
   display: none;
 }
 
+/* Hauptmenü Buttons */
 #menu button {
   display: block;
   width: 80%;
   margin: 10px auto;
 }
 
+/* Frage-Bild */
 #question-image {
   width: 200px;
   height: 200px;
   object-fit: cover;
-  margin: 20px 0;
+  margin: 15px 0;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
 }
 
+/* Antwort Buttons */
 #options button {
   display: block;
   margin: 8px auto;
-  padding: 10px;
+  padding: 12px;
   width: 80%;
   font-size: 16px;
   background-color: #1976d2;
+  border-radius: 8px;
+  transition: transform 0.1s, filter 0.1s, background-color 0.2s;
 }
 
+/* Fortschritt */
 #progress {
   margin-top: 15px;
   font-weight: bold;
   color: #ff6f00;
 }
 
+/* Ergebnisse */
 #results {
   margin-top: 20px;
 }
 
+/* Zurück-Button */
 #back-button {
   margin-top: 20px;
   background-color: #f57c00;
+  border-radius: 8px;
+  transition: transform 0.1s, filter 0.1s, background-color 0.2s;
 }
 
 /* Desktop Hover-Effekte */
@@ -84,13 +101,35 @@ button {
   #options button:hover {
     background-color: #0d47a1;
   }
+
+  #back-button:hover {
+    background-color: #ef6c00;
+  }
 }
 
-/* Mobile Tap-Effekt – KEIN :active MEHR */
+/* Mobile Tap-Effekt */
 @media (hover: none) and (pointer: coarse) {
   .active-mobile {
-    transform: scale(0.92);
-    filter: brightness(0.82);
-    transition: transform 0.08s, filter 0.08s;
+    transform: scale(0.95);
+    filter: brightness(0.85);
+    transition: transform 0.1s, filter 0.1s;
+  }
+
+  /* Container nicht vollbild auf Handy */
+  .container {
+    padding: 20px 15px;
+    max-height: 85vh;
+  }
+
+  #question-image {
+    width: 180px;
+    height: 180px;
+    margin: 10px 0;
+  }
+
+  #options button {
+    padding: 10px;
+    width: 90%;
+    font-size: 15px;
   }
 }

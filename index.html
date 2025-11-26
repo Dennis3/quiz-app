@@ -13,8 +13,25 @@
 
     <div id="menu">
       <button onclick="startCategory('characters')">Charakter raten</button>
-      <!-- <button onclick="startCategory('devilfruits')">Teufelsfrucht raten</button> -->
-      <!-- Weitere Kategorien hier hinzufügen -->
+    </div>
+
+    <button id="settings-btn" onclick="openSettings()">Einstellungen</button>
+
+    <div id="settings" class="hidden">
+      <h3>Einstellungen</h3>
+
+      <label for="questionAmount">Anzahl der Fragen:</label>
+      <select id="questionAmount">
+        <option value="5">5</option>
+        <option value="10" selected>10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+      </select>
+
+      <div class="settings-buttons">
+        <button onclick="saveSettings()">Speichern</button>
+        <button onclick="closeSettings()">Zurück</button>
+      </div>
     </div>
 
     <div id="quiz" class="hidden">

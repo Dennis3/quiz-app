@@ -1,24 +1,13 @@
+let allCharacters = [];
 let questions = [];
 let currentQuestion = 0;
 let score = 0;
 
-// Mobile + Desktop Tap Effekt zuverlässig setzen/entfernen
 function addTapEffect(btn, option) {
-  btn.addEventListener("pointerdown", () => {
-    btn.classList.add("active-mobile");
-  });
-
-  btn.addEventListener("pointerup", () => {
-    btn.classList.remove("active-mobile");
-  });
-
-  btn.addEventListener("pointerleave", () => {
-    btn.classList.remove("active-mobile");
-  });
-
-  btn.addEventListener("pointercancel", () => {
-    btn.classList.remove("active-mobile");
-  });
+  btn.addEventListener("pointerdown", () => btn.classList.add("active-mobile"));
+  btn.addEventListener("pointerup", () => btn.classList.remove("active-mobile"));
+  btn.addEventListener("pointerleave", () => btn.classList.remove("active-mobile"));
+  btn.addEventListener("pointercancel", () => btn.classList.remove("active-mobile"));
 
   btn.addEventListener("click", () => {
     btn.classList.remove("active-mobile");
@@ -26,42 +15,76 @@ function addTapEffect(btn, option) {
   });
 }
 
-// Kategorie starten und JSON laden
+function openSettings() {
+  document.getElementById('settings').classList.remove('hidden');
+  document.getElementById('menu').classList.add('hidden');
+  document.getElementById('settings-btn').classList.add('hidden');
+
+  const saved = localStorage.getItem("questionAmount");
+  if (saved) {
+    document.getElementById("questionAmount").value = saved;
+  }
+}
+
+function closeSettings() {
+  document.getElementById('settings').classList.add('hidden');
+  document.getElementById('menu').classList.remove('hidden');
+  document.getElementById('settings-btn').classList.remove('hidden');
+}
+
+function saveSettings() {
+  const amount = document.getElementById("questionAmount").value;
+  localStorage.setItem("questionAmount", amount);
+  closeSettings();
+}
+
 function startCategory(category) {
   document.getElementById('menu').classList.add('hidden');
-  document.getElementById('menu-title').classList.add('hidden');   // Header ausblenden
-  document.getElementById('menu-version').classList.add('hidden'); // Version ausblenden
+  document.getElementById('settings-btn').classList.add('hidden');
+  document.getElementById('menu-title').classList.add('hidden');
+  document.getElementById('menu-version').classList.add('hidden');
   document.getElementById('quiz').classList.remove('hidden');
+  document.getElementById('progress').classList.remove('hidden');
+
+
   currentQuestion = 0;
   score = 0;
+
+  let questionCount = parseInt(localStorage.getItem("questionAmount") || "10");
 
   fetch(`questions/${category}.json`)
     .then(res => res.json())
     .then(data => {
-      questions = data.map(q => ({
+      allCharacters = data.map(q => ({
         ...q,
         image: `images/${category}/${q.image}`
       }));
+
+      questions = [...allCharacters];
+      shuffleArray(questions);
+
+      questionCount = Math.min(questionCount, questions.length);
+      questions = questions.slice(0, questionCount);
+
       showQuestion();
     })
     .catch(err => console.error('Fehler beim Laden der Kategorie:', err));
 }
 
-// Hilfsfunktion: zufällige Auswahlmöglichkeiten erstellen
 function getOptions(correctName) {
-  let otherOptions = questions
-    .map(q => q.name)
+  let otherOptions = allCharacters
+    .map(c => c.name)
     .filter(name => name !== correctName);
 
   shuffleArray(otherOptions);
 
   let options = otherOptions.slice(0, 3);
   options.push(correctName);
+
   shuffleArray(options);
   return options;
 }
 
-// Array mischen
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -69,59 +92,52 @@ function shuffleArray(array) {
   }
 }
 
-// Frage anzeigen
 function showQuestion() {
-  const question = questions[currentQuestion];
-  const imageEl = document.getElementById('question-image');
+  const q = questions[currentQuestion];
+  const image = document.getElementById('question-image');
   const optionsEl = document.getElementById('options');
-  const progressEl = document.getElementById('progress');
 
-  imageEl.src = question.image;
-  imageEl.classList.remove('hidden');
+  image.src = q.image;
+  image.classList.remove('hidden');
   optionsEl.innerHTML = '';
 
-  const options = getOptions(question.name);
+  const opts = getOptions(q.name);
 
-  options.forEach(option => {
+  opts.forEach(option => {
     const btn = document.createElement('button');
     btn.textContent = option;
     addTapEffect(btn, option);
     optionsEl.appendChild(btn);
   });
 
-  progressEl.textContent = `Frage ${currentQuestion + 1} / ${questions.length}`;
-  progressEl.classList.remove('hidden');
-  document.getElementById('results').classList.add('hidden');
+  document.getElementById('progress').textContent =
+    `Frage ${currentQuestion + 1} / ${questions.length}`;
 }
 
-// Antwort prüfen
 function checkAnswer(selected) {
   if (selected === questions[currentQuestion].name) score++;
   currentQuestion++;
-  if (currentQuestion < questions.length) {
-    showQuestion();
-  } else {
-    showResults();
-  }
+
+  if (currentQuestion < questions.length) showQuestion();
+  else showResults();
 }
 
-// Ergebnisse anzeigen
 function showResults() {
   document.getElementById('options').innerHTML = '';
   document.getElementById('question-image').classList.add('hidden');
   document.getElementById('progress').classList.add('hidden');
 
-  document.getElementById('score').textContent = `Dein Punktestand: ${score} / ${questions.length}`;
+  document.getElementById('score').textContent =
+    `Dein Punktestand: ${score} / ${questions.length}`;
+
   document.getElementById('results').classList.remove('hidden');
 }
 
-// Zurück zum Hauptmenü
 function backToMenu() {
   document.getElementById('results').classList.add('hidden');
   document.getElementById('quiz').classList.add('hidden');
   document.getElementById('menu').classList.remove('hidden');
-  document.getElementById('menu-title').classList.remove('hidden');   // Header wieder anzeigen
-  document.getElementById('menu-version').classList.remove('hidden'); // Version wieder anzeigen
-  document.getElementById('question-image').classList.remove('hidden');
-  document.getElementById('progress').classList.remove('hidden');
+  document.getElementById('menu-title').classList.remove('hidden');
+  document.getElementById('menu-version').classList.remove('hidden');
+  document.getElementById('settings-btn').classList.remove('hidden');
 }

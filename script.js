@@ -10,9 +10,11 @@ function addTapEffect(btn, option) {
   btn.addEventListener("pointercancel", () => btn.classList.remove("active-mobile"));
 
   btn.addEventListener("click", () => {
-    btn.classList.remove("active-mobile");
-    checkAnswer(option);
-  });
+  if (btn.classList.contains("disabled")) return;
+  btn.classList.remove("active-mobile");
+  checkAnswer(option);
+});
+
 }
 
 function openSettings() {
@@ -118,12 +120,38 @@ function showQuestion() {
 }
 
 function checkAnswer(selected) {
-  if (selected === questions[currentQuestion].name) score++;
-  currentQuestion++;
+  const correct = questions[currentQuestion].name;
+  const buttons = document.querySelectorAll("#options button");
 
-  if (currentQuestion < questions.length) showQuestion();
-  else showResults();
+  // Klicks sperren
+  buttons.forEach(btn => {
+    btn.classList.add("disabled");
+  });
+
+  buttons.forEach(btn => {
+    if (btn.textContent === correct) {
+      btn.style.backgroundColor = "#2e7d32"; // grün
+    }
+
+    if (btn.textContent === selected && selected !== correct) {
+      btn.style.backgroundColor = "#c62828"; // rot
+    }
+  });
+
+  if (selected === correct) score++;
+
+  setTimeout(() => {
+    currentQuestion++;
+
+    if (currentQuestion < questions.length) {
+      showQuestion();
+    } else {
+      showResults();
+    }
+  }, 1000);
 }
+
+
 
 function showResults() {
   document.getElementById('options').innerHTML = '';

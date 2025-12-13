@@ -187,4 +187,15 @@ button {
     width: 90%;
     font-size: 15px;
   }
+
+/* =========================
+   Fragen Antwort Status
+========================= */
+.correct {}
+.wrong {}
+
+.disabled {
+  pointer-events: none;
+}
+
 }

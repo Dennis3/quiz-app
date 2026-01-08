@@ -94,6 +94,74 @@ button {
 }
 
 /* =========================
+   Difficulty-Auswahl Bereich
+========================= */
+#difficulty {
+  text-align: center;
+}
+
+#difficulty h3 {
+  margin-bottom: 25px;
+  color: #d32f2f;
+}
+
+/* Alle Buttons im Difficulty-Menü – gleicher Stil wie Hauptmenü */
+#difficulty button {
+  display: block;
+  width: 80%;
+  margin: 14px auto;
+  padding: 12px 20px;        /* Genau wie Hauptmenü-Buttons */
+  font-size: 16px;
+  font-weight: normal;
+  border: none;
+  border-radius: 8px;
+  background-color: #d32f2f; /* Standard-Rot wie im Hauptmenü */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.1s, filter 0.1s;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Farbverlauf nur für die Schwierigkeits-Buttons */
+#difficulty button:nth-child(2) {  /* Normal */
+  background-color: #ff6f00;
+}
+
+#difficulty button:nth-child(3) {  /* Schwer */
+  background-color: #f57c00;
+}
+
+#difficulty button:nth-child(4) {  /* Unmöglich */
+  background-color: #e64a19;
+}
+
+#difficulty button:nth-child(5) {  /* Alle */
+  background-color: #d32f2f;
+}
+
+/* Zurück-Button: Standard-Design + mehr Abstand oben */
+#difficulty button:last-child {
+  background-color: #d32f2f; /* Exakt die Hauptmenü-Farbe */
+  margin-top: 40px;          /* Schöner Abstand zum Rest */
+  /* Alle anderen Werte bleiben gleich wie oben → perfektes Hauptmenü-Design */
+}
+
+/* Hover-Effekte (Desktop) – identisch mit Hauptmenü */
+@media (hover: hover) {
+  #difficulty button:hover {
+    transform: scale(1.05);
+    background-color: #b71c1c;
+  }
+
+  /* Spezielle Hover-Farben für den Verlauf */
+  #difficulty button:nth-child(2):hover { background-color: #f57c00; }
+  #difficulty button:nth-child(3):hover { background-color: #e64a19; }
+  #difficulty button:nth-child(4):hover { background-color: #d84315; }
+  #difficulty button:nth-child(5):hover { background-color: #b71c1c; }
+  #difficulty button:last-child:hover { background-color: #b71c1c; } /* Wie Hauptmenü */
+}
+
+/* =========================
    Quiz Layout
 ========================= */
 #question-image {

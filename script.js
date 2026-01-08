@@ -2,6 +2,7 @@ let allCharacters = [];
 let questions = [];
 let currentQuestion = 0;
 let score = 0;
+let selectedDifficulty = null; // Neu: Speichert die gewählte Schwierigkeit
 
 function addTapEffect(btn, option) {
   btn.addEventListener("pointerdown", () => btn.classList.add("active-mobile"));
@@ -10,11 +11,10 @@ function addTapEffect(btn, option) {
   btn.addEventListener("pointercancel", () => btn.classList.remove("active-mobile"));
 
   btn.addEventListener("click", () => {
-  if (btn.classList.contains("disabled")) return;
-  btn.classList.remove("active-mobile");
-  checkAnswer(option);
-});
-
+    if (btn.classList.contains("disabled")) return;
+    btn.classList.remove("active-mobile");
+    checkAnswer(option);
+  });
 }
 
 function openSettings() {
@@ -36,33 +36,42 @@ function closeSettings() {
   document.getElementById('menu-version').classList.remove('hidden'); // Version wieder einblenden
 }
 
-
 function saveSettings() {
   const amount = document.getElementById("questionAmount").value;
   localStorage.setItem("questionAmount", amount);
   closeSettings();
 }
 
-function startCategory(category) {
+// Neu: Zeigt die Difficulty-Auswahl an
+function showDifficultySelection() {
   document.getElementById('menu').classList.add('hidden');
   document.getElementById('settings-button').classList.add('hidden');
   document.getElementById('menu-title').classList.add('hidden');
   document.getElementById('menu-version').classList.add('hidden');
+  document.getElementById('difficulty').classList.remove('hidden');
+}
+
+// Neu: Startet das Quiz mit der gewählten Difficulty (0 für alle)
+function startQuizWithDifficulty(diff) {
+  selectedDifficulty = diff;
+  document.getElementById('difficulty').classList.add('hidden');
   document.getElementById('quiz').classList.remove('hidden');
   document.getElementById('progress').classList.remove('hidden');
-
 
   currentQuestion = 0;
   score = 0;
 
   let questionCount = parseInt(localStorage.getItem("questionAmount") || "10");
 
-  fetch(`questions/${category}.json`)
+  fetch(`questions/characters.json`) // Angenommen, die JSON ist für characters
     .then(res => res.json())
     .then(data => {
-      allCharacters = data.map(q => ({
+      // Neu: Filtere nach Difficulty (wenn diff > 0, sonst alle)
+      let filteredData = (diff > 0) ? data.filter(q => q.difficulty === diff) : data;
+
+      allCharacters = filteredData.map(q => ({
         ...q,
-        image: `images/${category}/${q.image}`
+        image: `images/characters/${q.image}` // Angenommen, Pfad ist characters
       }));
 
       questions = [...allCharacters];
@@ -71,9 +80,24 @@ function startCategory(category) {
       questionCount = Math.min(questionCount, questions.length);
       questions = questions.slice(0, questionCount);
 
+      if (questions.length === 0) {
+        alert('Keine Charaktere für diese Schwierigkeit verfügbar!');
+        backToMenu();
+        return;
+      }
+
       showQuestion();
     })
     .catch(err => console.error('Fehler beim Laden der Kategorie:', err));
+}
+
+// Neu: Zurück zum Menü aus Difficulty-Auswahl
+function backToMenuFromDifficulty() {
+  document.getElementById('difficulty').classList.add('hidden');
+  document.getElementById('menu').classList.remove('hidden');
+  document.getElementById('menu-title').classList.remove('hidden');
+  document.getElementById('menu-version').classList.remove('hidden');
+  document.getElementById('settings-button').classList.remove('hidden');
 }
 
 function getOptions(correctName) {
@@ -151,8 +175,6 @@ function checkAnswer(selected) {
   }, 1000);
 }
 
-
-
 function showResults() {
   document.getElementById('options').innerHTML = '';
   document.getElementById('question-image').classList.add('hidden');
@@ -172,3 +194,5 @@ function backToMenu() {
   document.getElementById('menu-version').classList.remove('hidden');
   document.getElementById('settings-button').classList.remove('hidden');
 }
+
+// Entfernt: startCategory (wird jetzt durch showDifficultySelection und startQuizWithDifficulty ersetzt)

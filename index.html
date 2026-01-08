@@ -11,12 +11,11 @@
     <h1 id="menu-title">One Piece Quiz</h1>
 
     <div id="menu">
-      <button onclick="startCategory('characters')">Charaktere</button>
+      <button onclick="showDifficultySelection()">Charaktere</button> <!-- Geändert: Zeigt nun Difficulty-Auswahl -->
       <button onclick="alert('Kategorie noch nicht verfügbar')">Teufelsfrüchte</button>
       <button onclick="alert('Kategorie noch nicht verfügbar')">Crew-Mitglieder</button>
       <button onclick="alert('Kategorie noch nicht verfügbar')">Zitate</button>
     </div>
-
 
     <div id="menu-footer">
       <button id="settings-button" onclick="openSettings()">Einstellungen</button>
@@ -38,6 +37,16 @@
         <button onclick="saveSettings()">Speichern</button>
         <button onclick="closeSettings()">Zurück</button>
       </div>
+    </div>
+
+    <!-- Neu: Difficulty-Auswahl-Menü -->
+    <div id="difficulty" class="hidden">
+      <h3>Wähle die Schwierigkeit</h3>
+      <button onclick="startQuizWithDifficulty(1)">Normal</button>
+      <button onclick="startQuizWithDifficulty(2)">Schwer</button>
+      <button onclick="startQuizWithDifficulty(3)">Unmöglich</button>
+      <button onclick="startQuizWithDifficulty(0)">Alle</button> <!-- Optional: Alle Schwierigkeiten -->
+      <button onclick="backToMenuFromDifficulty()">Zurück</button>
     </div>
 
     <div id="quiz" class="hidden">

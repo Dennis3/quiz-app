@@ -14,6 +14,8 @@
   { "name": "Gin", "image": "gin.jpg", "crew": "", "arc": "Baratie", "difficulty": 3 },
   { "name": "Pearl", "image": "pearl.jpg", "crew": "", "arc": "Baratie", "difficulty": 3 },
 
+  { "name": "Dracule Mihawk", "image": "mihawk.jpg", "crew": "", "arc": "Baratie", "difficulty": 1 },
+
   { "name": "Arlong", "image": "arlong.jpg", "crew": "", "arc": "Arlong Park", "difficulty": 1 },
   { "name": "Hatchan", "image": "hatchan.jpg", "crew": "", "arc": "Arlong Park", "difficulty": 2 },
   { "name": "Kuroobi", "image": "kuroobi.jpg", "crew": "", "arc": "Arlong Park", "difficulty": 3 },

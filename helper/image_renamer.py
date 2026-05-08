@@ -1,10 +1,11 @@
 import os
 import json
 
-base_path = r"C:\Users\d.sauerwein\QuizApp\quiz-app"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-json_folder = os.path.join(base_path, "questions", "characters")
-picture_folder = os.path.join(base_path, "helper", "character_images")
+json_folder = os.path.join(BASE_DIR, "..", "questions", "characters")
+
+picture_folder = os.path.join(BASE_DIR, "character_images")
 
 # ----------------------------
 # Helper: Normalisierung
@@ -18,19 +19,20 @@ def norm(value):
 # ----------------------------
 characters = set()
 
-for file in os.listdir(json_folder):
-    if file.endswith(".json") and not file.startswith("index"):
-        path = os.path.join(json_folder, file)
+for root, dirs, files in os.walk(json_folder):
+    for file in files:
+        if file.endswith(".json") and not file.startswith("index"):
+            path = os.path.join(root, file)
 
-        with open(path, "r", encoding="utf-8") as f:
-            data = json.load(f)
+            with open(path, "r", encoding="utf-8") as f:
+                data = json.load(f)
 
-            for entry in data:
-                if isinstance(entry, dict):
-                    img = entry.get("image")
-                    name = entry.get("name")
-                    if img and name:
-                        characters.add((norm(img), norm(name)))
+                for entry in data:
+                    if isinstance(entry, dict):
+                        img = entry.get("image")
+                        name = entry.get("name")
+                        if img and name:
+                            characters.add((norm(img), norm(name)))
 
 
 for pic in os.listdir(picture_folder):

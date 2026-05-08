@@ -1,0 +1,6 @@
+[
+  { "name": "Gol D. Roger", "image": "gol_d_roger.jpg", "crew": "Roger Piraten", "arc": "", "difficulty": 1 },
+  { "name": "Silvers Rayleigh", "image": "silvers_rayleigh.jpg", "crew": "Roger Piraten", "arc": "", "difficulty": 1 },
+  { "name": "Scopper Gaban", "image": "scopper_gaban.jpg", "crew": "Roger Piraten", "arc": "", "difficulty": 1 },
+  { "name": "Crocus", "image": "crocus.jpg", "crew": "Roger Piraten", "arc": "", "difficulty": 1 }
+]

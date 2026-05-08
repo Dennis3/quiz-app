@@ -1,0 +1,16 @@
+[
+  { "name": "Monkey D. Dragon", "image": "monkey_d_dragon.jpg", "crew": "Revolutionäre Armee", "arc": "", "difficulty": 1 },
+  { "name": "Sabo", "image": "sabo.jpg", "crew": "Revolutionäre Armee", "arc": "", "difficulty": 1 },
+
+  { "name": "Emporio Ivankov", "image": "ivankov.jpg", "crew": "Revolutionäre Armee", "arc": "", "difficulty": 2 },
+  { "name": "Karasu", "image": "karasu.jpg", "crew": "Revolutionäre Armee", "arc": "", "difficulty": 3 },
+  { "name": "Belo Betty", "image": "belo_betty.jpg", "crew": "Revolutionäre Armee", "arc": "", "difficulty": 3 },
+  { "name": "Morley", "image": "morley.jpg", "crew": "Revolutionäre Armee", "arc": "", "difficulty": 3 },
+  { "name": "Lindbergh", "image": "lindbergh.jpg", "crew": "Revolutionäre Armee", "arc": "", "difficulty": 3 },
+  { "name": "Bartholomew Kuma", "image": "kuma.jpg", "crew": "Revolutionäre Armee", "arc": "", "difficulty": 1 },
+  { "name": "Ginny", "image": "ginny.jpg", "crew": "Revolutionäre Armee", "arc": "", "difficulty": 3 },
+
+  { "name": "Inazuma", "image": "inazuma.jpg", "crew": "Revolutionäre Armee", "arc": "", "difficulty": 3 },
+  { "name": "Koala", "image": "koala.jpg", "crew": "Revolutionäre Armee", "arc": "", "difficulty": 2 },
+  { "name": "Hack", "image": "hack.jpg", "crew": "Revolutionäre Armee", "arc": "", "difficulty": 3 }
+]

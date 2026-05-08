@@ -1,0 +1,6 @@
+[
+  { "name": "Eustass Kid", "image": "kid.jpg", "crew": "Kidpiraten", "arc": "", "difficulty": 1 },
+  { "name": "Killer", "image": "killer.jpg", "crew": "Kidpiraten", "arc": "", "difficulty": 2 },
+  { "name": "Heat", "image": "heat.jpg", "crew": "Kidpiraten", "arc": "", "difficulty": 3 },
+  { "name": "Wire", "image": "wire.jpg", "crew": "Kidpiraten", "arc": "", "difficulty": 3 }
+]

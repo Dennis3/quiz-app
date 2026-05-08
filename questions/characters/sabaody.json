@@ -1,10 +1,10 @@
 [
   { "name": "Silvers Rayleigh", "image": "rayleigh.jpg", "crew": "", "arc": "Sabaody", "difficulty": 1 },
-  { "name": "Shakuyaku", "image": "shakuyaku.jpg", "crew": "", "arc": "Sabaody", "difficulty": 2 },
+  { "name": "Shakuyaku", "image": "shakuyaku.jpg", "crew": "", "arc": "Sabaody", "difficulty": 1 },
   { "name": "Camie", "image": "camie.jpg", "crew": "", "arc": "Sabaody", "difficulty": 2 },
-  { "name": "Pappag", "image": "pappag.jpg", "crew": "", "arc": "Sabaody", "difficulty": 3 },
-  { "name": "Duval", "image": "duval.jpg", "crew": "", "arc": "Sabaody", "difficulty": 3 },
+  { "name": "Pappag", "image": "pappag.jpg", "crew": "", "arc": "Sabaody", "difficulty": 2 },
+  { "name": "Duval", "image": "duval.jpg", "crew": "", "arc": "Sabaody", "difficulty": 2 },
   { "name": "Charlos", "image": "charlos.jpg", "crew": "", "arc": "Sabaody", "difficulty": 3 },
 
-  { "name": "Jewelry Bonney", "image": "bonney.jpg", "crew": "", "arc": "Sabaody", "difficulty": 2 }
+  { "name": "Jewelry Bonney", "image": "bonney.jpg", "crew": "", "arc": "Sabaody", "difficulty": 1 }
 ]

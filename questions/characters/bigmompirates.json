@@ -6,12 +6,12 @@
   { "name": "Smoothie", "image": "smoothie.jpg", "crew": "Big Mom Piraten", "arc": "Whole Cake Island", "difficulty": 2 },
 
   { "name": "Perospero", "image": "perospero.jpg", "crew": "Big Mom Piraten", "arc": "Whole Cake Island", "difficulty": 2 },
-  { "name": "Daifuku", "image": "daifuku.jpg", "crew": "Big Mom Piraten", "arc": "Whole Cake Island", "difficulty": 3 },
-  { "name": "Oven", "image": "oven.jpg", "crew": "Big Mom Piraten", "arc": "Whole Cake Island", "difficulty": 3 },
-  { "name": "Amande", "image": "amande.jpg", "crew": "Big Mom Piraten", "arc": "Whole Cake Island", "difficulty": 3 },
-  { "name": "Brulee", "image": "brulee.jpg", "crew": "Big Mom Piraten", "arc": "Whole Cake Island", "difficulty": 3 },
-  { "name": "Nusstorte", "image": "nusstorte.jpg", "crew": "Big Mom Piraten", "arc": "Whole Cake Island", "difficulty": 3 },
-  { "name": "Mont d'Or", "image": "mont_dor.jpg", "crew": "Big Mom Piraten", "arc": "Whole Cake Island", "difficulty": 3 },
+  { "name": "Daifuku", "image": "daifuku.jpg", "crew": "Big Mom Piraten", "arc": "Whole Cake Island", "difficulty": 2 },
+  { "name": "Oven", "image": "oven.jpg", "crew": "Big Mom Piraten", "arc": "Whole Cake Island", "difficulty": 2 },
+  { "name": "Amande", "image": "amande.jpg", "crew": "Big Mom Piraten", "arc": "Whole Cake Island", "difficulty": 2 },
+  { "name": "Brulee", "image": "brulee.jpg", "crew": "Big Mom Piraten", "arc": "Whole Cake Island", "difficulty": 2 },
+  { "name": "Nusstorte", "image": "nusstorte.jpg", "crew": "Big Mom Piraten", "arc": "Whole Cake Island", "difficulty": 2 },
+  { "name": "Mont d'Or", "image": "mont_dor.jpg", "crew": "Big Mom Piraten", "arc": "Whole Cake Island", "difficulty": 2 },
   
   { "name": "Pekoms", "image": "pekoms.jpg", "crew": "Big Mom Piraten", "arc": "", "difficulty": 2 },
   { "name": "Tamago", "image": "tamago.jpg", "crew": "Big Mom Piraten", "arc": "", "difficulty": 2 },

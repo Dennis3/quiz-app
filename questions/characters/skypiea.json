@@ -1,12 +1,12 @@
 [
   { "name": "Bellamy", "image": "bellamy.jpg", "crew": "", "arc": "Jaya", "difficulty": 2 },
   { "name": "Sarquiss", "image": "sarquiss.jpg", "crew": "", "arc": "Jaya", "difficulty": 3 },
-  { "name": "Cricket", "image": "cricket.jpg", "crew": "", "arc": "Jaya", "difficulty": 3 },
+  { "name": "Cricket", "image": "cricket.jpg", "crew": "", "arc": "Jaya", "difficulty": 2 },
 
   { "name": "Enel", "image": "enel.jpg", "crew": "", "arc": "Skypiea", "difficulty": 1 },
   { "name": "Gan Fall", "image": "gan_fall.jpg", "crew": "", "arc": "Skypiea", "difficulty": 2 },
   { "name": "Wyper", "image": "wyper.jpg", "crew": "", "arc": "Skypiea", "difficulty": 2 },
-  { "name": "Conis", "image": "conis.jpg", "crew": "", "arc": "Skypiea", "difficulty": 3 },
+  { "name": "Conis", "image": "conis.jpg", "crew": "", "arc": "Skypiea", "difficulty": 2 },
   { "name": "Aisa", "image": "aisa.jpg", "crew": "", "arc": "Skypiea", "difficulty": 3 },
   { "name": "Kamakiri", "image": "kamakiri.jpg", "crew": "", "arc": "Skypiea", "difficulty": 3 },
   { "name": "Laki", "image": "laki.jpg", "crew": "", "arc": "Skypiea", "difficulty": 3 },
@@ -15,5 +15,5 @@
   { "name": "Shura", "image": "shura.jpg", "crew": "", "arc": "Skypiea", "difficulty": 3 },
   { "name": "Gedatsu", "image": "gedatsu.jpg", "crew": "", "arc": "Skypiea", "difficulty": 3 },
   { "name": "Yama", "image": "yama.jpg", "crew": "", "arc": "Skypiea", "difficulty": 3 },
-  { "name": "Noland", "image": "noland.jpg", "crew": "", "arc": "Skypiea", "difficulty": 3 }
+  { "name": "Noland", "image": "noland.jpg", "crew": "", "arc": "Skypiea", "difficulty": 2 }
 ]

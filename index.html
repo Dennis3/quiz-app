@@ -11,15 +11,15 @@
     <h1 id="menu-title">One Piece Quiz</h1>
 
     <div id="menu">
-      <button onclick="showDifficultySelection()">Charaktere</button> <!-- Geändert: Zeigt nun Difficulty-Auswahl -->
+      <button onclick="showDifficultySelection()">Charaktere</button>
       <button onclick="alert('Kategorie noch nicht verfügbar')">Teufelsfrüchte</button>
       <button onclick="alert('Kategorie noch nicht verfügbar')">Crew-Mitglieder</button>
       <button onclick="alert('Kategorie noch nicht verfügbar')">Zitate</button>
     </div>
 
-    <div id="menu-footer">
+    <div id="menu-footer" class="hidden">
       <button id="settings-button" onclick="openSettings()">Einstellungen</button>
-      <span id="menu-version">2.0</span>
+      <span id="menu-version">2.1</span>
     </div>
 
     <div id="settings" class="hidden">
@@ -39,14 +39,13 @@
       </div>
     </div>
 
-    <!-- Neu: Difficulty-Auswahl-Menü -->
     <div id="difficulty" class="hidden">
       <h3>Wähle die Schwierigkeit</h3>
       <button onclick="startQuizWithDifficulty(1)">Normal</button>
       <button onclick="startQuizWithDifficulty(2)">Schwer</button>
       <button onclick="startQuizWithDifficulty(3)">Unmöglich</button>
-      <button onclick="startQuizWithDifficulty(0)">Alle</button> <!-- Optional: Alle Schwierigkeiten -->
-      <button onclick="backToMenuFromDifficulty()">Zurück</button>
+      <button onclick="startQuizWithDifficulty(0)">Alle</button>
+      <button onclick="backToMenu()">Zurück</button>
     </div>
 
     <div id="quiz" class="hidden">
@@ -60,6 +59,10 @@
     </div>
   </div>
 
-  <script src="script.js"></script>
+  <script src="js/utils.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/settings.js"></script>
+  <script src="js/mode_characters.js"></script>
+  <script>backToMenu();</script>
 </body>
 </html>

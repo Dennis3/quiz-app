@@ -1,21 +1,26 @@
-[
-  { "name": "Caesar Clown", "image": "caesar_clown.jpg", "crew": "", "arc": "Punk Hazard", "difficulty": 2 },
-  { "name": "Monet", "image": "monet.jpg", "crew": "", "arc": "Punk Hazard", "difficulty": 3 },
-  { "name": "Brownbeard", "image": "brownbeard.jpg", "crew": "", "arc": "Punk Hazard", "difficulty": 3 },
-
+[  
   { "name": "Donquixote Doflamingo", "image": "doflamingo.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 1 },
-  { "name": "Rebecca", "image": "rebecca.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 2 },
-  { "name": "Kyros", "image": "kyros.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 2 },
-  { "name": "Viola", "image": "viola.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 3 },
-  { "name": "Trebol", "image": "trebol.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 3 },
-  { "name": "Pica", "image": "pica.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 3 },
-  { "name": "Diamante", "image": "diamante.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 3 },
-  { "name": "Sugar", "image": "sugar.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 3 },
-  { "name": "Senor Pink", "image": "senor_pink.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 3 },
-  { "name": "Machvise", "image": "machvise.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 3 },
+  { "name": "Trebol", "image": "trebol.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 2 },
+  { "name": "Sugar", "image": "sugar.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 2 },
+  { "name": "Viola", "image": "viola.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 2 },
+
+  { "name": "Diamante", "image": "diamante.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 2 },
   { "name": "Lao G", "image": "lao_g.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 3 },
-  { "name": "Baby 5", "image": "baby_5.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 3 },
+  { "name": "Senor Pink", "image": "senor_pink.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 2 },
+  { "name": "Machvise", "image": "machvise.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 3 },
+  { "name": "Dellinger", "image": "dellinger.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 2 },
+
+  { "name": "Pica", "image": "pica.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 2 },
+  { "name": "Baby 5", "image": "baby_5.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 2 },
   { "name": "Buffalo", "image": "buffalo.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 3 },
+  
+  { "name": "Rebecca", "image": "rebecca.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 1 },
+  { "name": "Kyros", "image": "kyros.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 1 },
+  
+  { "name": "Caesar Clown", "image": "caesar_clown.jpg", "crew": "", "arc": "Punk Hazard", "difficulty": 1 },
+  { "name": "Monet", "image": "monet.jpg", "crew": "", "arc": "Punk Hazard", "difficulty": 2 },
+  { "name": "Chadros Higelyges", "image": "brownbeard.jpg", "crew": "", "arc": "Punk Hazard", "difficulty": 3 },
+  
   { "name": "Cavendish", "image": "cavendish.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 2 },
-  { "name": "Bartolomeo", "image": "bartolomeo.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 2 }
+  { "name": "Bartolomeo", "image": "bartolomeo.jpg", "crew": "", "arc": "Dressrosa", "difficulty": 1 }
 ]

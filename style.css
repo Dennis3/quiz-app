@@ -40,7 +40,7 @@ button {
 }
 
 .hidden {
-  display: none;
+  display: none !important;
 }
 
 /* =========================
@@ -59,7 +59,7 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 30px; /* Abstand zu Spiel-Buttons */
+  margin-top: 30px;
   padding: 0 10px;
 }
 
@@ -105,60 +105,30 @@ button {
   color: #d32f2f;
 }
 
-/* Alle Buttons im Difficulty-Menü – gleicher Stil wie Hauptmenü */
 #difficulty button {
   display: block;
   width: 80%;
   margin: 14px auto;
-  padding: 12px 20px;        /* Genau wie Hauptmenü-Buttons */
+  padding: 12px 20px;
   font-size: 16px;
   font-weight: normal;
   border: none;
   border-radius: 8px;
-  background-color: #d32f2f; /* Standard-Rot wie im Hauptmenü */
+  background-color: #d32f2f;
   color: white;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.1s, filter 0.1s;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
-/* Farbverlauf nur für die Schwierigkeits-Buttons */
-#difficulty button:nth-child(2) {  /* Normal */
-  background-color: #ff6f00;
-}
+#difficulty button:nth-child(2) { background-color: #ff6f00; }  /* Normal */
+#difficulty button:nth-child(3) { background-color: #f57c00; }  /* Schwer */
+#difficulty button:nth-child(4) { background-color: #e64a19; }  /* Unmöglich */
+#difficulty button:nth-child(5) { background-color: #d32f2f; }  /* Alle */
 
-#difficulty button:nth-child(3) {  /* Schwer */
-  background-color: #f57c00;
-}
-
-#difficulty button:nth-child(4) {  /* Unmöglich */
-  background-color: #e64a19;
-}
-
-#difficulty button:nth-child(5) {  /* Alle */
-  background-color: #d32f2f;
-}
-
-/* Zurück-Button: Standard-Design + mehr Abstand oben */
 #difficulty button:last-child {
-  background-color: #d32f2f; /* Exakt die Hauptmenü-Farbe */
-  margin-top: 40px;          /* Schöner Abstand zum Rest */
-  /* Alle anderen Werte bleiben gleich wie oben → perfektes Hauptmenü-Design */
-}
-
-/* Hover-Effekte (Desktop) – identisch mit Hauptmenü */
-@media (hover: hover) {
-  #difficulty button:hover {
-    transform: scale(1.05);
-    background-color: #b71c1c;
-  }
-
-  /* Spezielle Hover-Farben für den Verlauf */
-  #difficulty button:nth-child(2):hover { background-color: #f57c00; }
-  #difficulty button:nth-child(3):hover { background-color: #e64a19; }
-  #difficulty button:nth-child(4):hover { background-color: #d84315; }
-  #difficulty button:nth-child(5):hover { background-color: #b71c1c; }
-  #difficulty button:last-child:hover { background-color: #b71c1c; } /* Wie Hauptmenü */
+  background-color: #d32f2f;
+  margin-top: 40px;
 }
 
 /* =========================
@@ -168,6 +138,7 @@ button {
   width: 200px;
   height: 200px;
   object-fit: cover;
+  object-position: top;
   margin: 15px 0;
   border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
@@ -206,10 +177,25 @@ button {
   font-size: 32px;
   color: #fdd835;
   text-shadow: 2px 2px 0 #d32f2f, 4px 4px 0 rgba(0,0,0,0.2);
-  margin: 10px 0 30px 0; /* oben 10px, unten 30px */
+  margin: 10px 0 30px 0;
   background: linear-gradient(to right, #d32f2f, #ff6f00);
   padding: 10px 20px;
   border-radius: 10px;
+}
+
+/* =========================
+   Antwort-Status (BUG FIX: waren in @media eingeschlossen)
+========================= */
+.correct {
+  background-color: #2e7d32 !important; /* grün */
+}
+
+.wrong {
+  background-color: #c62828 !important; /* rot */
+}
+
+.disabled {
+  pointer-events: none;
 }
 
 /* =========================
@@ -228,6 +214,13 @@ button {
   #back-button:hover {
     background-color: #ef6c00;
   }
+
+  #difficulty button:hover             { transform: scale(1.05); background-color: #b71c1c; }
+  #difficulty button:nth-child(2):hover { background-color: #f57c00; }
+  #difficulty button:nth-child(3):hover { background-color: #e64a19; }
+  #difficulty button:nth-child(4):hover { background-color: #d84315; }
+  #difficulty button:nth-child(5):hover { background-color: #b71c1c; }
+  #difficulty button:last-child:hover   { background-color: #b71c1c; }
 }
 
 /* =========================
@@ -255,15 +248,4 @@ button {
     width: 90%;
     font-size: 15px;
   }
-
-/* =========================
-   Fragen Antwort Status
-========================= */
-.correct {}
-.wrong {}
-
-.disabled {
-  pointer-events: none;
-}
-
 }

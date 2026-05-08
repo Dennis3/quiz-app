@@ -1,15 +1,15 @@
 [
-  { "name": "Oden", "image": "oden.jpg", "crew": "", "arc": "Wano Country", "difficulty": 2 },
-  { "name": "Momonosuke", "image": "momonosuke.jpg", "crew": "", "arc": "Wano Country", "difficulty": 2 },
+  { "name": "Oden", "image": "oden.jpg", "crew": "", "arc": "Wano Country", "difficulty": 1 },
+  { "name": "Momonosuke", "image": "momonosuke.jpg", "crew": "", "arc": "Wano Country", "difficulty": 1 },
   { "name": "Hiyori", "image": "hiyori.jpg", "crew": "", "arc": "Wano Country", "difficulty": 2 },
 
-  { "name": "Yamato", "image": "yamato.jpg", "crew": "", "arc": "Wano Country", "difficulty": 2 },
+  { "name": "Yamato", "image": "yamato.jpg", "crew": "", "arc": "Wano Country", "difficulty": 1 },
 
   { "name": "Orochi", "image": "orochi.jpg", "crew": "", "arc": "Wano Country", "difficulty": 2 },
-  { "name": "Denjiro", "image": "denjiro.jpg", "crew": "", "arc": "Wano Country", "difficulty": 3 },
+  { "name": "Denjiro", "image": "denjiro.jpg", "crew": "", "arc": "Wano Country", "difficulty": 2 },
   { "name": "Kin'emon", "image": "kinemon.jpg", "crew": "", "arc": "Wano Country", "difficulty": 2 },
-  { "name": "Kanjuro", "image": "kanjuro.jpg", "crew": "", "arc": "Wano Country", "difficulty": 3 },
-  { "name": "Raizo", "image": "raizo.jpg", "crew": "", "arc": "Wano Country", "difficulty": 3 },
+  { "name": "Kanjuro", "image": "kanjuro.jpg", "crew": "", "arc": "Wano Country", "difficulty": 2 },
+  { "name": "Raizo", "image": "raizo.jpg", "crew": "", "arc": "Wano Country", "difficulty": 2 },
   { "name": "Kawamatsu", "image": "kawamatsu.jpg", "crew": "", "arc": "Wano Country", "difficulty": 3 },
   { "name": "Ashura Doji", "image": "ashura_doji.jpg", "crew": "", "arc": "Wano Country", "difficulty": 3 }
 

@@ -1,9 +1,9 @@
 [
   { "name": "Vivi", "image": "vivi.jpg", "crew": "", "arc": "Reverse Mountain", "difficulty": 1 },
-  { "name": "Igaram", "image": "igaram.jpg", "crew": "", "arc": "Reverse Mountain", "difficulty": 2 },
+  { "name": "Igaram", "image": "igaram.jpg", "crew": "", "arc": "Reverse Mountain", "difficulty": 1 },
 
-  { "name": "Woogey", "image": "woogey.jpg", "crew": "", "arc": "Little Garden", "difficulty": 2 },
-  { "name": "Boogey", "image": "boogey.jpg", "crew": "", "arc": "Little Garden", "difficulty": 2 },
+  { "name": "Woogey", "image": "woogey.jpg", "crew": "", "arc": "Little Garden", "difficulty": 1 },
+  { "name": "Boogey", "image": "boogey.jpg", "crew": "", "arc": "Little Garden", "difficulty": 1 },
 
   { "name": "Dalton", "image": "dalton.jpg", "crew": "", "arc": "Drum Island", "difficulty": 2 },
   { "name": "Wapol", "image": "wapol.jpg", "crew": "", "arc": "Drum Island", "difficulty": 2 },

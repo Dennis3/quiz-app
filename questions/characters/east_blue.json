@@ -9,7 +9,7 @@
   { "name": "Kuro", "image": "kuro.jpg", "crew": "", "arc": "Syrup Village", "difficulty": 2 },
   { "name": "Kaya", "image": "kaya.jpg", "crew": "", "arc": "Syrup Village", "difficulty": 2 },
 
-  { "name": "Zeff", "image": "zeff.jpg", "crew": "", "arc": "Baratie", "difficulty": 2 },
+  { "name": "Zeff", "image": "zeff.jpg", "crew": "", "arc": "Baratie", "difficulty": 1 },
   { "name": "Don Krieg", "image": "don_krieg.jpg", "crew": "", "arc": "Baratie", "difficulty": 2 },
   { "name": "Gin", "image": "gin.jpg", "crew": "", "arc": "Baratie", "difficulty": 3 },
   { "name": "Pearl", "image": "pearl.jpg", "crew": "", "arc": "Baratie", "difficulty": 3 },

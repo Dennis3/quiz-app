@@ -1,0 +1,13 @@
+[
+  { "name": "Marshall D. Teach", "image": "blackbeard.jpg", "crew": "Blackbeard Piraten", "arc": "", "difficulty": 1 },
+
+  { "name": "Jesus Burgess", "image": "jesus_burgess.jpg", "crew": "Blackbeard Piraten", "arc": "", "difficulty": 2 },
+  { "name": "Shiryu", "image": "shiryu.jpg", "crew": "Blackbeard Piraten", "arc": "", "difficulty": 2 },
+  { "name": "Van Augur", "image": "van_augur.jpg", "crew": "Blackbeard Piraten", "arc": "", "difficulty": 3 },
+  { "name": "Avalo Pizarro", "image": "avalo_pizarro.jpg", "crew": "Blackbeard Piraten", "arc": "", "difficulty": 3 },
+  { "name": "Lafitte", "image": "lafitte.jpg", "crew": "Blackbeard Piraten", "arc": "", "difficulty": 3 },
+  { "name": "Catarina Devon", "image": "catarina_devon.jpg", "crew": "Blackbeard Piraten", "arc": "", "difficulty": 3 },
+  { "name": "Sanjuan Wolf", "image": "sanjuan_wolf.jpg", "crew": "Blackbeard Piraten", "arc": "", "difficulty": 3 },
+  { "name": "Vasco Shot", "image": "vasco_shot.jpg", "crew": "Blackbeard Piraten", "arc": "", "difficulty": 3 },
+  { "name": "Doc Q", "image": "doc_q.jpg", "crew": "Blackbeard Piraten", "arc": "", "difficulty": 2 }
+]

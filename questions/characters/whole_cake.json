@@ -1,0 +1,10 @@
+[
+  { "name": "Inuarashi", "image": "inuarashi.jpg", "crew": "", "arc": "Zou", "difficulty": 2 },
+  { "name": "Nekomamushi", "image": "nekomamushi.jpg", "crew": "", "arc": "Zou", "difficulty": 2 },
+  { "name": "Carrot", "image": "carrot.jpg", "crew": "", "arc": "Zou", "difficulty": 2 },
+  { "name": "Pedro", "image": "pedro.jpg", "crew": "", "arc": "Zou", "difficulty": 3 },
+  { "name": "Wanda", "image": "wanda.jpg", "crew": "", "arc": "Zou", "difficulty": 3 },
+
+  { "name": "Pudding", "image": "pudding.jpg", "crew": "", "arc": "Whole Cake Island", "difficulty": 2 },
+  { "name": "Streusen", "image": "streusen.jpg", "crew": "", "arc": "Whole Cake Island", "difficulty": 3 }
+]

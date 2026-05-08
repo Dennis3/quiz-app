@@ -1,0 +1,23 @@
+[
+  { "name": "Morgan", "image": "morgan.jpg", "crew": "", "arc": "Romance Dawn", "difficulty": 3 },
+
+  { "name": "Buggy", "image": "buggy.jpg", "crew": "", "arc": "Orange Town", "difficulty": 1 },
+  { "name": "Mohji", "image": "mohji.jpg", "crew": "", "arc": "Orange Town", "difficulty": 2 },
+  { "name": "Cabaji", "image": "cabaji.jpg", "crew": "", "arc": "Orange Town", "difficulty": 2 },
+  { "name": "Alvida", "image": "alvida.jpg", "crew": "", "arc": "Orange Town", "difficulty": 2 },
+
+  { "name": "Kuro", "image": "kuro.jpg", "crew": "", "arc": "Syrup Village", "difficulty": 2 },
+  { "name": "Kaya", "image": "kaya.jpg", "crew": "", "arc": "Syrup Village", "difficulty": 2 },
+
+  { "name": "Zeff", "image": "zeff.jpg", "crew": "", "arc": "Baratie", "difficulty": 2 },
+  { "name": "Don Krieg", "image": "don_krieg.jpg", "crew": "", "arc": "Baratie", "difficulty": 2 },
+  { "name": "Gin", "image": "gin.jpg", "crew": "", "arc": "Baratie", "difficulty": 3 },
+  { "name": "Pearl", "image": "pearl.jpg", "crew": "", "arc": "Baratie", "difficulty": 3 },
+
+  { "name": "Arlong", "image": "arlong.jpg", "crew": "", "arc": "Arlong Park", "difficulty": 1 },
+  { "name": "Hatchan", "image": "hatchan.jpg", "crew": "", "arc": "Arlong Park", "difficulty": 2 },
+  { "name": "Kuroobi", "image": "kuroobi.jpg", "crew": "", "arc": "Arlong Park", "difficulty": 3 },
+  { "name": "Chew", "image": "chew.jpg", "crew": "", "arc": "Arlong Park", "difficulty": 3 },
+  { "name": "Nojiko", "image": "nojiko.jpg", "crew": "", "arc": "Arlong Park", "difficulty": 3 },
+  { "name": "Genzo", "image": "genzo.jpg", "crew": "", "arc": "Arlong Park", "difficulty": 3 }
+]

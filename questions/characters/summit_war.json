@@ -1,0 +1,12 @@
+[
+  { "name": "Hancock", "image": "boa_hancock.jpg", "crew": "", "arc": "Amazon Lily", "difficulty": 1 },
+  { "name": "Sandersonia", "image": "boa_sandersonia.jpg", "crew": "", "arc": "Amazon Lily", "difficulty": 3 },
+  { "name": "Marigold", "image": "boa_marigold.jpg", "crew": "", "arc": "Amazon Lily", "difficulty": 3 },
+  { "name": "Gloriosa", "image": "gloriosa.jpg", "crew": "", "arc": "Amazon Lily", "difficulty": 3 },
+
+  { "name": "Magellan", "image": "magellan.jpg", "crew": "", "arc": "Impel Down", "difficulty": 2 },
+  { "name": "Hannyabal", "image": "hannyabal.jpg", "crew": "", "arc": "Impel Down", "difficulty": 3 },
+  { "name": "Ivankov", "image": "ivankov.jpg", "crew": "", "arc": "Impel Down", "difficulty": 2 },
+  { "name": "Inazuma", "image": "inazuma.jpg", "crew": "", "arc": "Impel Down", "difficulty": 3 },
+  { "name": "Sadi", "image": "sadi.jpg", "crew": "", "arc": "Impel Down", "difficulty": 3 }
+]

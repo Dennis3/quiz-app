@@ -1,0 +1,26 @@
+[
+  { "name": "Vivi", "image": "vivi.jpg", "crew": "", "arc": "Reverse Mountain", "difficulty": 1 },
+  { "name": "Igaram", "image": "igaram.jpg", "crew": "", "arc": "Reverse Mountain", "difficulty": 2 },
+
+  { "name": "Woogey", "image": "woogey.jpg", "crew": "", "arc": "Little Garden", "difficulty": 2 },
+  { "name": "Boogey", "image": "boogey.jpg", "crew": "", "arc": "Little Garden", "difficulty": 2 },
+
+  { "name": "Dalton", "image": "dalton.jpg", "crew": "", "arc": "Drum Island", "difficulty": 2 },
+  { "name": "Wapol", "image": "wapol.jpg", "crew": "", "arc": "Drum Island", "difficulty": 2 },
+  { "name": "Chess", "image": "chess.jpg", "crew": "", "arc": "Drum Island", "difficulty": 3 },
+  { "name": "Kuromarimo", "image": "kuromarimo.jpg", "crew": "", "arc": "Drum Island", "difficulty": 3 },
+  { "name": "Dr. Kureha", "image": "kureha.jpg", "crew": "", "arc": "Drum Island", "difficulty": 1 },
+
+  { "name": "Crocodile", "image": "crocodile.jpg", "crew": "", "arc": "Arabasta", "difficulty": 1 },
+  { "name": "Daz Bones", "image": "daz_bones.jpg", "crew": "", "arc": "Arabasta", "difficulty": 2 },
+  { "name": "Bentham", "image": "bentham.jpg", "crew": "", "arc": "Arabasta", "difficulty": 2 },
+  { "name": "Galdino", "image": "galdino.jpg", "crew": "", "arc": "Arabasta", "difficulty": 2 },
+  { "name": "Babe", "image": "babe.jpg", "crew": "", "arc": "Arabasta", "difficulty": 3 },
+  { "name": "Zala", "image": "zala.jpg", "crew": "", "arc": "Arabasta", "difficulty": 3 },
+  { "name": "Drophy", "image": "drophy.jpg", "crew": "", "arc": "Arabasta", "difficulty": 3 },
+  { "name": "Mikita", "image": "mikita.jpg", "crew": "", "arc": "Arabasta", "difficulty": 3 },
+  { "name": "Nico Olivia", "image": "nico_olivia.jpg", "crew": "", "arc": "Arabasta", "difficulty": 2 },
+  { "name": "Chaka", "image": "chaka.jpg", "crew": "", "arc": "Arabasta", "difficulty": 3 },
+  { "name": "Pell", "image": "pell.jpg", "crew": "", "arc": "Arabasta", "difficulty": 3 },
+  { "name": "Kobra", "image": "koenig_kobra.jpg", "crew": "", "arc": "Arabasta", "difficulty": 1 }
+]

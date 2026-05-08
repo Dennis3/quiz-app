@@ -1,0 +1,28 @@
+[
+  { "name": "Sakazuki", "image": "sakazuki.jpg", "crew": "Marine", "arc": "", "difficulty": 1 },
+
+  { "name": "Borsalino", "image": "borsalino.jpg", "crew": "Marine", "arc": "", "difficulty": 1 },
+  { "name": "Fujitora", "image": "fujitora.jpg", "crew": "Marine", "arc": "", "difficulty": 2 },
+  { "name": "Green Bull", "image": "green_bull.jpg", "crew": "Marine", "arc": "", "difficulty": 3 },
+
+  { "name": "Garp", "image": "garp.jpg", "crew": "Marine", "arc": "", "difficulty": 1 },
+  { "name": "Tsuru", "image": "tsuru.jpg", "crew": "Marine", "arc": "", "difficulty": 3 },
+  { "name": "Momonga", "image": "momonga.jpg", "crew": "Marine", "arc": "", "difficulty": 3 },
+  { "name": "Doberman", "image": "doberman.jpg", "crew": "Marine", "arc": "", "difficulty": 3 },
+  { "name": "Bastille", "image": "bastille.jpg", "crew": "Marine", "arc": "", "difficulty": 3 },
+  { "name": "Smoker", "image": "smoker.jpg", "crew": "Marine", "arc": "", "difficulty": 1 },
+  { "name": "Doll", "image": "doll.jpg", "crew": "Marine", "arc": "", "difficulty": 3 },
+  { "name": "Vergo", "image": "vergo.jpg", "crew": "Marine", "arc": "", "difficulty": 3 },
+  { "name": "T-Bone", "image": "t_bone.jpg", "crew": "Marine", "arc": "", "difficulty": 3 },
+  { "name": "Hina", "image": "hina.jpg", "crew": "Marine", "arc": "", "difficulty": 3 },
+  { "name": "Tashigi", "image": "tashigi.jpg", "crew": "Marine", "arc": "", "difficulty": 1 },
+  { "name": "Korby", "image": "korby.jpg", "crew": "Marine", "arc": "", "difficulty": 1 },
+  { "name": "Helmeppo", "image": "helmeppo.jpg", "crew": "Marine", "arc": "", "difficulty": 1 },
+  { "name": "Fullbody", "image": "fullbody.jpg", "crew": "Marine", "arc": "", "difficulty": 3 },
+  { "name": "Jango", "image": "jango.jpg", "crew": "Marine", "arc": "", "difficulty": 3 },
+  
+  { "name": "Sengoku", "image": "sengoku.jpg", "crew": "Marine", "arc": "", "difficulty": 2 },
+  { "name": "Bogard", "image": "bogard.jpg", "crew": "Marine", "arc": "", "difficulty": 3 },
+
+  { "name": "Kuzan", "image": "kuzan.jpg", "crew": "Marine", "arc": "", "difficulty": 1 }
+]

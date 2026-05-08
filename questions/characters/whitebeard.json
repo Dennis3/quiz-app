@@ -1,0 +1,8 @@
+[
+  { "name": "Edward Newgate", "image": "weissbart.jpg", "crew": "Weißbart Piraten", "arc": "", "difficulty": 1 },
+
+  { "name": "Marco", "image": "marco.jpg", "crew": "Weißbart Piraten", "arc": "", "difficulty": 1 },
+  { "name": "Jozu", "image": "jozu.jpg", "crew": "Weißbart Piraten", "arc": "", "difficulty": 2 },
+  { "name": "Vista", "image": "vista.jpg", "crew": "Weißbart Piraten", "arc": "", "difficulty": 3 },
+  { "name": "Portgas D. Ace", "image": "ace.jpg", "crew": "Weißbart Piraten", "arc": "", "difficulty": 1 }
+]

@@ -1,0 +1,6 @@
+[
+  { "name": "Shanks", "image": "shanks.jpg", "crew": "Rote Haare Piraten", "arc": "", "difficulty": 1 },
+  { "name": "Benn Beckman", "image": "benn_beckman.jpg", "crew": "Rote Haare Piraten", "arc": "", "difficulty": 2 },
+  { "name": "Lucky Roux", "image": "lucky_roux.jpg", "crew": "Rote Haare Piraten", "arc": "", "difficulty": 3 },
+  { "name": "Yasopp", "image": "yasopp.jpg", "crew": "Rote Haare Piraten", "arc": "", "difficulty": 3 }
+]

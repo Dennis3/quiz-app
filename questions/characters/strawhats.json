@@ -1,0 +1,12 @@
+[
+  { "name": "Monkey D. Ruffy", "image": "ruffy.jpg", "crew": "Strohut Piraten", "arc": "", "difficulty": 1 },
+  { "name": "Roronoa Zoro", "image": "zoro.jpg", "crew": "Strohut Piraten", "arc": "", "difficulty": 1 },
+  { "name": "Nami", "image": "nami.jpg", "crew": "Strohut Piraten", "arc": "", "difficulty": 1 },
+  { "name": "Lysop", "image": "lysop.jpg", "crew": "Strohut Piraten", "arc": "", "difficulty": 1 },
+  { "name": "Sanji", "image": "sanji.jpg", "crew": "Strohut Piraten", "arc": "", "difficulty": 1 },
+  { "name": "Tony Tony Chopper", "image": "chopper.jpg", "crew": "Strohut Piraten", "arc": "", "difficulty": 1 },
+  { "name": "Nico Robin", "image": "nico_robin.jpg", "crew": "Strohut Piraten", "arc": "", "difficulty": 1 },
+  { "name": "Franky", "image": "franky.jpg", "crew": "Strohut Piraten", "arc": "", "difficulty": 1 },
+  { "name": "Brook", "image": "brook.jpg", "crew": "Strohut Piraten", "arc": "", "difficulty": 1 },
+  { "name": "Jinbe", "image": "jinbe.jpg", "crew": "Strohut Piraten", "arc": "", "difficulty": 1 }
+]

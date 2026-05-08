@@ -1,0 +1,7 @@
+[
+  { "name": "Trafalgar Law", "image": "law.jpg", "crew": "Herzpiraten", "arc": "", "difficulty": 1 },
+  { "name": "Bepo", "image": "bepo.jpg", "crew": "Herzpiraten", "arc": "", "difficulty": 2 },
+  { "name": "Shachi", "image": "shachi.jpg", "crew": "Herzpiraten", "arc": "", "difficulty": 3 },
+  { "name": "Penguin", "image": "penguin.jpg", "crew": "Herzpiraten", "arc": "", "difficulty": 3 },
+  { "name": "Jean Bart", "image": "jean_bart.jpg", "crew": "Herzpiraten", "arc": "", "difficulty": 3 }
+]

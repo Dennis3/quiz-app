@@ -1,0 +1,11 @@
+[
+  { "name": "Kaido", "image": "kaido.jpg", "crew": "Beasts Pirates", "arc": "", "difficulty": 1 },
+  { "name": "King", "image": "king.jpg", "crew": "Beasts Pirates", "arc": "", "difficulty": 2 },
+  { "name": "Queen", "image": "queen.jpg", "crew": "Beasts Pirates", "arc": "", "difficulty": 2 },
+  { "name": "Jack", "image": "jack.jpg", "crew": "Beasts Pirates", "arc": "", "difficulty": 2 },
+  { "name": "Ulti", "image": "ulti.jpg", "crew": "Beasts Pirates", "arc": "", "difficulty": 3 },
+  { "name": "Page One", "image": "page_one.jpg", "crew": "Beasts Pirates", "arc": "", "difficulty": 3 },
+  { "name": "Black Maria", "image": "black_maria.jpg", "crew": "Beasts Pirates", "arc": "", "difficulty": 3 },
+  { "name": "Sasaki", "image": "sasaki.jpg", "crew": "Beasts Pirates", "arc": "", "difficulty": 3 },
+  { "name": "Who's Who", "image": "whos_who.jpg", "crew": "Beasts Pirates", "arc": "", "difficulty": 3 }
+]

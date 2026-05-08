@@ -1,0 +1,16 @@
+[
+  { "name": "König Neptun", "image": "neptun.jpg", "crew": "", "arc": "Fish-Man Island", "difficulty": 2 },
+  { "name": "Prinzessin Shirahoshi", "image": "shirahoshi.jpg", "crew": "", "arc": "Fish-Man Island", "difficulty": 2 },
+  { "name": "Fukaboshi", "image": "fukaboshi.jpg", "crew": "", "arc": "Fish-Man Island", "difficulty": 3 },
+  { "name": "Ryuboshi", "image": "ryuboshi.jpg", "crew": "", "arc": "Fish-Man Island", "difficulty": 3 },
+  { "name": "Manboshi", "image": "manboshi.jpg", "crew": "", "arc": "Fish-Man Island", "difficulty": 3 },
+  { "name": "Hody Jones", "image": "hody_jones.jpg", "crew": "", "arc": "Fish-Man Island", "difficulty": 2 },
+  { "name": "Vander Decken IX", "image": "vander_decken.jpg", "crew": "", "arc": "Fish-Man Island", "difficulty": 3 },
+  { "name": "Dosun", "image": "dosun.jpg", "crew": "", "arc": "Fish-Man Island", "difficulty": 3 },
+  { "name": "Zeo", "image": "zeo.jpg", "crew": "", "arc": "Fish-Man Island", "difficulty": 3 },
+  { "name": "Daruma", "image": "daruma.jpg", "crew": "", "arc": "Fish-Man Island", "difficulty": 3 },
+  { "name": "Ikaros Much", "image": "ikaros_much.jpg", "crew": "", "arc": "Fish-Man Island", "difficulty": 3 },
+  { "name": "Wadatsumi", "image": "wadatsumi.jpg", "crew": "", "arc": "Fish-Man Island", "difficulty": 3 },
+
+   { "name": "Donquixote Mjosgard", "image": "mjosgard.jpg", "crew": "", "arc": "Fish-Man Island", "difficulty": 3 }
+]

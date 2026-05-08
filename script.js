@@ -63,32 +63,46 @@ function startQuizWithDifficulty(diff) {
 
   let questionCount = parseInt(localStorage.getItem("questionAmount") || "10");
 
-  fetch(`questions/characters.json`) // Angenommen, die JSON ist für characters
-    .then(res => res.json())
-    .then(data => {
-      // Neu: Filtere nach Difficulty (wenn diff > 0, sonst alle)
-      let filteredData = (diff > 0) ? data.filter(q => q.difficulty === diff) : data;
+  fetch('questions/characters/index.json')
+  .then(res => res.json())
+  .then(fileList => {
+    // Alle JSONs parallel laden
+    return Promise.all(
+      fileList.map(filename =>
+        fetch(`questions/characters/${filename}`).then(res => res.json())
+      )
+    );
+  })
+  .then(results => {
+    // Alle Arrays zusammenführen
+    const data = results.flat();
 
-      allCharacters = filteredData.map(q => ({
-        ...q,
-        image: `images/characters/${q.image}` // Angenommen, Pfad ist characters
-      }));
+    // Ab hier identisch wie vorher
+    let filteredData = (diff > 0) ? data.filter(q => q.difficulty === diff) : data;
 
-      questions = [...allCharacters];
-      shuffleArray(questions);
+    allCharacters = filteredData.map(q => ({
+      ...q,
+      image: `images/characters/${q.image}`
+    }));
 
-      questionCount = Math.min(questionCount, questions.length);
-      questions = questions.slice(0, questionCount);
+    questions = [...allCharacters];
+    shuffleArray(questions);
 
-      if (questions.length === 0) {
-        alert('Keine Charaktere für diese Schwierigkeit verfügbar!');
-        backToMenu();
-        return;
-      }
+    questionCount = Math.min(questionCount, questions.length);
+    questions = questions.slice(0, questionCount);
 
-      showQuestion();
-    })
-    .catch(err => console.error('Fehler beim Laden der Kategorie:', err));
+    console.log("questionCount: ", questionCount);
+    console.log("questions: ", questions);
+
+    if (questions.length === 0) {
+      alert('Keine Charaktere für diese Schwierigkeit verfügbar!');
+      backToMenu();
+      return;
+    }
+
+    showQuestion();
+  })
+  .catch(err => console.error('Fehler beim Laden der Kategorie:', err));
 }
 
 // Neu: Zurück zum Menü aus Difficulty-Auswahl

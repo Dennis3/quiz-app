@@ -1,0 +1,23 @@
+[
+  { "name": "Foxy", "image": "foxy.jpg", "crew": "", "arc": "Long Ring Long Land", "difficulty": 2 },
+  { "name": "Porche", "image": "porche.jpg", "crew": "", "arc": "Long Ring Long Land", "difficulty": 3 },
+  { "name": "Hamburg", "image": "hamburg.jpg", "crew": "", "arc": "Long Ring Long Land", "difficulty": 3 },
+
+  { "name": "Iceberg", "image": "iceberg.jpg", "crew": "", "arc": "Water 7", "difficulty": 2 },
+  { "name": "Tom", "image": "tom.jpg", "crew": "", "arc": "Water 7", "difficulty": 3 },
+  { "name": "Kokoro", "image": "kokoro.jpg", "crew": "", "arc": "Water 7", "difficulty": 3 },
+  { "name": "Chimney", "image": "chimney.jpg", "crew": "", "arc": "Water 7", "difficulty": 3 },
+  { "name": "Paulie", "image": "paulie.jpg", "crew": "", "arc": "Water 7", "difficulty": 3 },
+  { "name": "Tilestone", "image": "tilestone.jpg", "crew": "", "arc": "Water 7", "difficulty": 3 },
+  { "name": "Lulu", "image": "lulu.jpg", "crew": "", "arc": "Water 7", "difficulty": 3 },
+  { "name": "Zambai", "image": "zambai.jpg", "crew": "", "arc": "Water 7", "difficulty": 3 },
+
+  { "name": "Rob Lucci", "image": "rob_lucci.jpg", "crew": "", "arc": "Enies Lobby", "difficulty": 1 },
+  { "name": "Spandam", "image": "spandam.jpg", "crew": "", "arc": "Enies Lobby", "difficulty": 2 },
+  { "name": "Ekki", "image": "ekki.jpg", "crew": "", "arc": "Enies Lobby", "difficulty": 1 },
+  { "name": "Kalifa", "image": "kalifa.jpg", "crew": "", "arc": "Enies Lobby", "difficulty": 2 },
+  { "name": "Jabra", "image": "jabra.jpg", "crew": "", "arc": "Enies Lobby", "difficulty": 3 },
+  { "name": "Bruno", "image": "bruno.jpg", "crew": "", "arc": "Enies Lobby", "difficulty": 2 },
+  { "name": "Kumadori", "image": "kumadori.jpg", "crew": "", "arc": "Enies Lobby", "difficulty": 3 },
+  { "name": "Fukurou", "image": "fukurou.jpg", "crew": "", "arc": "Enies Lobby", "difficulty": 3 }
+]

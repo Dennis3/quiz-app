@@ -2,7 +2,8 @@
 // mode_characters.js – Spielmodus: Charakter anhand Bild raten
 // =========================
 
-let allCharacters = [];
+let allCharacters = [];   // Alle gefilterten Charaktere (gleiche Difficulty)
+let decoyCharacters = []; // Charaktere die NICHT in den Fragen sind -> falsche Antworten
 let questions = [];
 let currentQuestion = 0;
 let score = 0;
@@ -44,6 +45,9 @@ function startQuizWithDifficulty(diff) {
       const questionCount = Math.min(getQuestionAmount(), allCharacters.length);
       questions = shuffleArray([...allCharacters]).slice(0, questionCount);
 
+      const questionNames = new Set(questions.map(q => q.name));
+      decoyCharacters = allCharacters.filter(c => !questionNames.has(c.name));
+
       showQuestion();
     })
     .catch(err => {
@@ -57,13 +61,20 @@ function startQuizWithDifficulty(diff) {
  * Gibt 4 Antwortoptionen zurück (1 richtig, 3 zufällig)
  */
 function getOptions(correctName) {
-  const others = allCharacters
-    .map(c => c.name)
-    .filter(name => name !== correctName);
+  // Falsche Antworten nur aus Charakteren die nicht in den Fragen sind
+  let pool = decoyCharacters.map(c => c.name);
 
-  shuffleArray(others);
+  // Falls nicht genug Koeder vorhanden: mit Fragen-Charakteren auffuellen (ausser richtige Antwort)
+  if (pool.length < 3) {
+    const extra = allCharacters
+      .map(c => c.name)
+      .filter(name => name !== correctName && !pool.includes(name));
+    pool = [...pool, ...extra];
+  }
 
-  const options = [...others.slice(0, 3), correctName];
+  shuffleArray(pool);
+
+  const options = [...pool.slice(0, 3), correctName];
   shuffleArray(options);
   return options;
 }

@@ -1,41 +1,36 @@
 // =========================
 // ui.js – Sichtbarkeit der Bereiche steuern
-// Alle show/hide Logik an einem Ort
 // =========================
 
-// Alle bekannten Bereiche
-const VIEWS = ['menu', 'menu-footer', 'menu-title', 'settings', 'difficulty', 'quiz'];
+const VIEWS = ['menu', 'menu-footer', 'menu-title', 'settings', 'difficulty', 'quiz', 'tf-quiz', 'result-screen'];
 
-/**
- * Blendet alle Bereiche aus und zeigt nur die gewünschten an.
- * @param {string[]} visible - IDs der Elemente die sichtbar sein sollen
- */
+let lastMode = null;
+let lastDifficulty = null;
+
 function showViews(...visible) {
   VIEWS.forEach(id => {
     const el = document.getElementById(id);
     if (el) el.classList.add('hidden');
   });
-
   visible.forEach(id => {
     const el = document.getElementById(id);
     if (el) el.classList.remove('hidden');
   });
 }
 
-/**
- * Zeigt das Hauptmenü
- */
 function backToMenu() {
-  // Quiz-State zurücksetzen falls nötig
-  document.getElementById('results').classList.add('hidden');
-  document.getElementById('progress').classList.remove('hidden');
-
   showViews('menu', 'menu-footer', 'menu-title');
 }
 
-/**
- * Zeigt die Difficulty-Auswahl
- */
+function playAgain() {
+  hideResultScreen();
+  if (lastMode === 'characters') {
+    startQuizWithDifficulty(lastDifficulty);
+  } else if (lastMode === 'truefalse') {
+    startTrueFalseQuiz();
+  }
+}
+
 function showDifficultySelection() {
   showViews('difficulty');
 }

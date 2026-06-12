@@ -1,0 +1,57 @@
+[
+  {
+    "question": "Whisky Peak ist eine Insel, auf der die Bewohner Piraten feiern und bewirten.",
+    "answer": true,
+    "explanation": "Die Bewohner betäuben die Piraten mit Alkohol und übergeben sie dann der Baroque Works Organisation."
+  },
+  {
+    "question": "Die Bewohner von Whisky Peak sind in Wirklichkeit Agenten der Baroque Works.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Miss Wednesday entpuppt sich als Prinzessin Vivi von Arabasta.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Mr. 9 ist ebenfalls ein Mitglied der Königsfamilie von Arabasta.",
+    "answer": false,
+    "explanation": "Mr. 9 ist ein normaler Baroque Works Agent, kein Mitglied der Königsfamilie."
+  },
+  {
+    "question": "Zoro kämpft alleine gegen eine große Gruppe von Baroque Works Agenten.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Ruffy und Zoro geraten in Whisky Peak in einen Streit miteinander.",
+    "answer": true,
+    "explanation": "Ruffy ist wütend auf Zoro weil er dachte, Zoro greife unschuldige Menschen an – er wusste nicht dass es Baroque Works Agenten waren."
+  },
+  {
+    "question": "Mr. 5 und Miss Valentine tauchen in Whisky Peak auf, um Vivi zu töten.",
+    "answer": true,
+    "explanation": "Baroque Works will Vivi eliminieren, weil sie ein Verräter ist."
+  },
+  {
+    "question": "Die Strohhüte beschließen, Vivi sicher nach Arabasta zu bringen.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Miss Valentine kann ihr Gewicht beliebig verändern dank ihrer Teufelsfrucht.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Mr. 5 kann Explosionen erzeugen, auch durch seinen eigenen Körper.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Igaram ist Vivis Leibwächter und verkleidet sich als Vivi um ihr zu helfen zu entkommen.",
+    "answer": true,
+    "explanation": null
+  }
+]

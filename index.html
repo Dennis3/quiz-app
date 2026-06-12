@@ -15,16 +15,16 @@
       <button onclick="alert('Kategorie noch nicht verfügbar')">Teufelsfrüchte</button>
       <button onclick="alert('Kategorie noch nicht verfügbar')">Crew-Mitglieder</button>
       <button onclick="alert('Kategorie noch nicht verfügbar')">Zitate</button>
+      <button onclick="startTrueFalseQuiz()">Wahr oder Falsch</button>
     </div>
 
     <div id="menu-footer" class="hidden">
       <button id="settings-button" onclick="openSettings()">Einstellungen</button>
-      <span id="menu-version">2.2</span>
+      <span id="menu-version">2.0</span>
     </div>
 
     <div id="settings" class="hidden">
       <h3>Einstellungen</h3>
-
       <label for="questionAmount">Anzahl der Fragen:</label>
       <select id="questionAmount">
         <option value="5">5</option>
@@ -32,7 +32,6 @@
         <option value="15">15</option>
         <option value="20">20</option>
       </select>
-
       <div class="settings-buttons">
         <button onclick="saveSettings()">Speichern</button>
         <button onclick="closeSettings()">Zurück</button>
@@ -48,21 +47,35 @@
       <button onclick="backToMenu()">Zurück</button>
     </div>
 
+    <div id="tf-quiz" class="hidden">
+      <div id="tf-progress"></div>
+      <div id="tf-question"></div>
+      <div id="tf-buttons">
+        <button id="tf-true" onclick="checkTrueFalse(true)">✓ Wahr</button>
+        <button id="tf-false" onclick="checkTrueFalse(false)">✗ Falsch</button>
+      </div>
+      <div id="tf-explanation" class="hidden"></div>
+    </div>
+
     <div id="quiz" class="hidden">
       <img id="question-image" src="" alt="Bild">
       <div id="options"></div>
       <div id="progress"></div>
-      <div id="results" class="hidden">
-        <div id="score"></div>
-        <button id="back-button" onclick="backToMenu()">Zurück zum Hauptmenü</button>
-      </div>
+    </div>
+
+    <div id="result-screen" class="hidden">
+      <div id="result-score"></div>
+      <button id="play-again-button" onclick="playAgain()">Nochmal spielen</button>
+      <button id="back-button" onclick="backToMenu()">Zurück zum Hauptmenü</button>
     </div>
   </div>
 
   <script src="js/utils.js"></script>
   <script src="js/ui.js"></script>
   <script src="js/settings.js"></script>
+  <script src="js/results.js"></script>
   <script src="js/mode_characters.js"></script>
+  <script src="js/mode_truefalse.js"></script>
   <script>backToMenu();</script>
 </body>
 </html>

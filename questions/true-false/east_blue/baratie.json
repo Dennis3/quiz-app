@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Das Baratie ist ein schwimmendes Restaurant auf dem Meer.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Sanji ist der Chefkoch des Baratie.",
+    "answer": false,
+    "explanation": "Zeff ist der Chefkoch und Besitzer des Baratie. Sanji ist einer der Köche."
+  },
+  {
+    "question": "Sanji kämpft ausschließlich mit seinen Beinen und benutzt nie seine Hände im Kampf.",
+    "answer": true,
+    "explanation": "Sanji kämpft nur mit seinen Beinen, um seine Hände als Koch zu schützen."
+  },
+  {
+    "question": "Zeff und Sanji saßen einst gemeinsam auf einer Felseninsel fest und drohten zu verhungern.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Zeff aß seinen eigenen Fuß auf, um zu überleben, während er Sanji das gesamte Essen gab.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Don Krieg ist der Antagonist des Baratie Arcs.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Don Krieg wird als der stärkste Pirat der East Blue bezeichnet.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Gin ist Don Kriegs erster Offizier und zeigt Sanji gegenüber Dankbarkeit.",
+    "answer": true,
+    "explanation": "Sanji gab Gin zu essen als er halb verhungert ankam – Gin vergisst das nicht."
+  },
+  {
+    "question": "Sanji besiegt Don Krieg im Finale des Arcs.",
+    "answer": false,
+    "explanation": "Ruffy besiegt Don Krieg am Ende des Arcs."
+  },
+  {
+    "question": "Mihawk taucht im Baratie Arc auf und besiegt Zoro im Duell.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Zoro fordert Mihawk zum Kampf heraus, um seiner Ambition als weltbester Schwertkämpfer näher zu kommen.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Mihawk besiegt Zoro mit einem kleinen Messer, das er am Hals trägt.",
+    "answer": true,
+    "explanation": "Mihawk trägt ein kleines Kreuz-förmiges Messer als Anhänger und besiegt Zoro damit."
+  },
+  {
+    "question": "Sanji verlässt das Baratie sofort ohne Zögern, um Ruffy zu folgen.",
+    "answer": false,
+    "explanation": "Sanji zögert lange – das Baratie ist sein Zuhause und Zeff bedeutet ihm viel. Er verabschiedet sich bewegt."
+  },
+  {
+    "question": "Don Kriegs Rüstung macht ihn unverwundbar gegen Ruffys Angriffe.",
+    "answer": false,
+    "explanation": "Ruffys Gummi-Körper und seine Stärke durchbrechen letztendlich Don Kriegs Rüstung."
+  },
+  {
+    "question": "Nami stiehlt die Going Merry während des Kampfes am Baratie und segelt davon.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Sanji schließt sich Ruffys Crew am Ende des Baratie Arcs an.",
+    "answer": true,
+    "explanation": null
+  }
+]

@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Loguetown ist die Stadt, in der Gol D. Roger geboren und hingerichtet wurde.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Ruffy besucht in Loguetown die Hinrichtungsplattform von Gol D. Roger.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Ruffy wird in Loguetown fast von Smoker gefangen genommen.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Smoker ist ein Marine-Vizeadmiral, der in Loguetown stationiert ist.",
+    "answer": false,
+    "explanation": "Smoker ist zu diesem Zeitpunkt Kapitän der Marine, kein Vizeadmiral."
+  },
+  {
+    "question": "Smoker aß die Moku Moku no Mi und kann sich in Rauch verwandeln.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Buggy taucht in Loguetown wieder auf und versucht Ruffy zu töten.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Buggy bringt Ruffy auf die Hinrichtungsplattform und will ihm den Kopf abschlagen.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Ruffy wird auf der Hinrichtungsplattform durch einen Blitz gerettet.",
+    "answer": true,
+    "explanation": "Ein Blitz trifft im letzten Moment die Plattform und rettet Ruffy – viele sehen dies als Zeichen des Schicksals."
+  },
+  {
+    "question": "Zoro kauft in Loguetown sein erstes Schwert.",
+    "answer": false,
+    "explanation": "Zoro bekommt in Loguetown das Schwert Wado Ichimonji zurück und kauft zwei weitere Schwerter um seine drei-Schwerter-Technik wieder zu vervollständigen."
+  },
+  {
+    "question": "Tashigi ist eine Marine-Unteroffizierin unter Smokers Kommando.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Tashigi sieht Zoro ähnlich und hat eine Leidenschaft für berühmte Schwerter.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Sanji kauft in Loguetown Vorräte für die Reise auf die Grandline ein.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Dragon, Ruffys Vater, greift in Loguetown ein und hilft Ruffy zu entkommen.",
+    "answer": true,
+    "explanation": "Dragon taucht auf und lenkt Smoker ab – es ist einer der ersten Hinweise auf seine Existenz."
+  },
+  {
+    "question": "Loguetown wird auch die Stadt des Anfangs und des Endes genannt.",
+    "answer": true,
+    "explanation": "Roger wurde dort geboren und hingerichtet – Anfang und Ende des Piratenkönigs."
+  },
+  {
+    "question": "Die Strohhüte verlassen Loguetown in Richtung Grandline durch den Reverse Mountain.",
+    "answer": true,
+    "explanation": null
+  }
+]

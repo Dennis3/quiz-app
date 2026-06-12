@@ -15,6 +15,11 @@ let score = 0;
 function startQuizWithDifficulty(diff) {
   currentQuestion = 0;
   score = 0;
+  lastMode = 'characters';
+  lastDifficulty = diff;
+
+  document.getElementById('question-image').classList.remove('hidden');
+  document.getElementById('progress').classList.remove('hidden');
 
   showViews('quiz');
 
@@ -139,7 +144,6 @@ function showResults() {
   document.getElementById('options').innerHTML = '';
   document.getElementById('question-image').classList.add('hidden');
   document.getElementById('progress').classList.add('hidden');
-  document.getElementById('score').textContent =
-    `Dein Punktestand: ${score} / ${questions.length}`;
-  document.getElementById('results').classList.remove('hidden');
+  showViews('result-screen');
+  showResultScreen(score, questions.length);
 }

@@ -1,0 +1,67 @@
+[
+  {
+    "question": "Die Strohhüte reisen nach Drum Island, weil Nami dringend einen Arzt braucht.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Chopper ist ein Rentier, das die Hito Hito no Mi gegessen hat.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Die Hito Hito no Mi ist eine Zoan-Teufelsfrucht, die Chopper menschliche Fähigkeiten verleiht.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Dr. Kureha ist Choppers Lehrerin und eine sehr alte aber vitale Ärztin.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Wapol ist der rechtmäßige und beliebte König von Drum Island.",
+    "answer": false,
+    "explanation": "Wapol ist ein tyrannischer König, der die Insel terrorisierte und alle Ärzte bis auf seine eigenen verbannte."
+  },
+  {
+    "question": "Wapol aß eine Teufelsfrucht, die es ihm erlaubt alles zu essen und zu absorbieren.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Choppers Mentor und Vaterfigur war Dr. Hiluluk, ein Quacksalber mit einem großen Herz.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Dr. Hiluluk stirbt, nachdem er irrtümlich glaubt, Chopper habe ihn vergiftet.",
+    "answer": false,
+    "explanation": "Hiluluk opfert sich selbst – er sprengt sich in die Luft nachdem Wapol ihn in eine Falle gelockt hat."
+  },
+  {
+    "question": "Ruffy trägt Nami auf dem Rücken einen verschneiten Berg hinauf um zum Arzt zu gelangen.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Chopper hat insgesamt sieben verschiedene Kampfformen durch seinen Rumble Ball.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Chopper wird von den Dorfbewohnern als Monster betrachtet und ausgegrenzt.",
+    "answer": true,
+    "explanation": "Chopper gehört weder zur Welt der Rentiere noch zur Welt der Menschen und wird von beiden abgelehnt."
+  },
+  {
+    "question": "Chopper schließt sich Ruffys Crew als Schiffskoch an.",
+    "answer": false,
+    "explanation": "Chopper schließt sich als Schiffsarzt an – der Koch ist Sanji."
+  },
+  {
+    "question": "Hiluluk träumte davon, eine Krankheit namens das kranke Herz der Menschen zu heilen.",
+    "answer": true,
+    "explanation": null
+  }
+]

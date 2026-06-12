@@ -1,0 +1,52 @@
+[
+  {
+    "question": "Der Reverse Mountain ist der einzige Eingang zur Grandline von der East Blue aus.",
+    "answer": false,
+    "explanation": "Es gibt insgesamt vier Eingänge zur Grandline – einen für jede Himmelsrichtung."
+  },
+  {
+    "question": "Am Reverse Mountain fließt das Wasser bergauf statt bergab.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Die Strohhüte treffen am Reverse Mountain auf das Meeresmonster Laboon.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Laboon ist ein riesiger Wal, der auf die Rückkehr einer Piratencrew wartet.",
+    "answer": true,
+    "explanation": "Laboon wartet seit Jahrzehnten auf die Rückkehr der Brook-Crew, mit der er als junger Wal befreundet war."
+  },
+  {
+    "question": "Crocus ist der Leuchtturmwärter am Reverse Mountain und lebt im Bauch von Laboon.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Ruffy besiegt Laboon im Kampf und verspricht ihm, zurückzukehren.",
+    "answer": true,
+    "explanation": "Ruffy kämpft gegen Laboon und erklärt es zu einem Unentschieden – das gibt Laboon Hoffnung und hält ihn davon ab, sich am Felsen zu verletzen."
+  },
+  {
+    "question": "Mr. 9 und Miss Wednesday greifen die Strohhüte am Reverse Mountain an.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Das Log Pose ist ein Navigationsgerät das auf der Grandline benötigt wird.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Crocus war früher Schiffsarzt auf Rogers Piratenschiff.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Die Strohhüte nehmen Mr. 9 und Miss Wednesday freiwillig mit zur nächsten Insel.",
+    "answer": true,
+    "explanation": "Miss Wednesday bittet die Strohhüte, sie nach Whisky Peak mitzunehmen."
+  }
+]

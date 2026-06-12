@@ -1,43 +1,23 @@
 [
   {
-    "question": "Whisky Peak ist eine Insel, auf der die Bewohner Piraten feiern und bewirten.",
-    "answer": true,
-    "explanation": "Die Bewohner betäuben die Piraten mit Alkohol und übergeben sie dann der Baroque Works Organisation."
-  },
-  {
     "question": "Die Bewohner von Whisky Peak sind in Wirklichkeit Agenten der Baroque Works.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Miss Wednesday entpuppt sich als Prinzessin Vivi von Arabasta.",
+    "question": "Miss Wednesday entpuppt sich als Prinzessin Vivi von Alabasta.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Mr. 9 ist ebenfalls ein Mitglied der Königsfamilie von Arabasta.",
+    "question": "Mr. 9 ist ebenfalls ein Mitglied der Königsfamilie von Alabasta.",
     "answer": false,
     "explanation": "Mr. 9 ist ein normaler Baroque Works Agent, kein Mitglied der Königsfamilie."
   },
   {
-    "question": "Zoro kämpft alleine gegen eine große Gruppe von Baroque Works Agenten.",
-    "answer": true,
-    "explanation": null
-  },
-  {
     "question": "Ruffy und Zoro geraten in Whisky Peak in einen Streit miteinander.",
     "answer": true,
-    "explanation": "Ruffy ist wütend auf Zoro weil er dachte, Zoro greife unschuldige Menschen an – er wusste nicht dass es Baroque Works Agenten waren."
-  },
-  {
-    "question": "Mr. 5 und Miss Valentine tauchen in Whisky Peak auf, um Vivi zu töten.",
-    "answer": true,
-    "explanation": "Baroque Works will Vivi eliminieren, weil sie ein Verräter ist."
-  },
-  {
-    "question": "Die Strohhüte beschließen, Vivi sicher nach Arabasta zu bringen.",
-    "answer": true,
-    "explanation": null
+    "explanation": "Ruffy ist wütend, weil er dachte, Zoro greife unschuldige Menschen an."
   },
   {
     "question": "Miss Valentine kann ihr Gewicht beliebig verändern dank ihrer Teufelsfrucht.",
@@ -45,13 +25,33 @@
     "explanation": null
   },
   {
-    "question": "Mr. 5 kann Explosionen erzeugen, auch durch seinen eigenen Körper.",
+    "question": "Mr. 5 kann nur durch externe Sprengstoffe Explosionen erzeugen, nicht durch seinen eigenen Körper.",
+    "answer": false,
+    "explanation": "Mr. 5 kann jeden Teil seines Körpers in eine Bombe verwandeln."
+  },
+  {
+    "question": "Igaram verkleidet sich als Vivi, um ihr die Flucht zu ermöglichen.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Igaram ist Vivis Leibwächter und verkleidet sich als Vivi um ihr zu helfen zu entkommen.",
+    "question": "Die Strohhüte erfahren erst nach Whisky Peak, dass Vivi eine Prinzessin ist.",
+    "answer": false,
+    "explanation": "Sie erfahren es bereits in Whisky Peak, als ihre Tarnung als Miss Wednesday auffliegt."
+  },
+  {
+    "question": "Zoro kämpft alleine gegen eine große Gruppe von Baroque Works Agenten.",
     "answer": true,
     "explanation": null
+  },
+  {
+    "question": "Die Strohhüte beschließen, Vivi sicher nach Alabasta zu bringen.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Mr. 5 und Miss Valentine tauchen auf, um Vivi zu beschützen.",
+    "answer": false,
+    "explanation": "Sie tauchen auf, um Vivi zu töten, da Baroque Works sie als Verräter betrachtet."
   }
 ]

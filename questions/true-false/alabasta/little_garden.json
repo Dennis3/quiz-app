@@ -5,44 +5,29 @@
     "explanation": null
   },
   {
-    "question": "Dorry und Brogy sind zwei Riesen, die seit 100 Jahren auf Little Garden kämpfen.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Dorry und Brogy kämpfen weil sie sich gegenseitig hassen.",
+    "question": "Dorry und Brogy kämpfen seit 100 Jahren gegeneinander, weil sie sich gegenseitig hassen.",
     "answer": false,
     "explanation": "Die beiden sind eigentlich beste Freunde – sie kämpfen aus Ehrengründen um einen alten Streit zu klären."
   },
   {
-    "question": "Mr. 3 ist ein Baroque Works Agent, der auf Little Garden operiert.",
-    "answer": true,
-    "explanation": null
+    "question": "Mr. 3 kann mit seiner Teufelsfrucht Feuer erzeugen und kontrollieren.",
+    "answer": false,
+    "explanation": "Mr. 3 erzeugt Wachs, nicht Feuer."
   },
   {
-    "question": "Mr. 3 kann mit seiner Teufelsfrucht Wachs erzeugen und formen.",
-    "answer": true,
-    "explanation": null
+    "question": "Mr. 3 besiegt Ruffy im direkten Kampf.",
+    "answer": false,
+    "explanation": "Ruffy besiegt Mr. 3 alleine ohne Hilfe."
   },
   {
-    "question": "Mr. 3 versucht Vivi, Zoro und Nami in Wachs einzugießen.",
-    "answer": true,
-    "explanation": null
+    "question": "Miss Goldenweek kämpft hauptsächlich mit körperlicher Stärke und Nahkampf.",
+    "answer": false,
+    "explanation": "Miss Goldenweek nutzt Farben um Emotionen zu beeinflussen, keine körperliche Stärke."
   },
   {
-    "question": "Ruffy besiegt Mr. 3 alleine ohne Hilfe.",
+    "question": "Sanji gibt sich gegenüber Crocodile per Transponder-Schnecke fälschlicherweise als Mr. 3 aus.",
     "answer": true,
     "explanation": null
-  },
-  {
-    "question": "Miss Goldenweek ist Mr. 3s Partnerin und kämpft mit Farben die Emotionen kontrollieren.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Sanji kontaktiert Mr. 0 über eine Transponder-Schnecke und gibt sich als Mr. 3 aus.",
-    "answer": true,
-    "explanation": "Sanji täuscht Mr. 0 alias Crocodile und berichtet fälschlicherweise, dass die Strohhüte erledigt wurden."
   },
   {
     "question": "Dorry und Brogy stammen von der Rieseninsel Elbaf.",
@@ -50,13 +35,28 @@
     "explanation": null
   },
   {
-    "question": "Baroque Works manipuliert den Kampf der beiden Riesen indem sie Dorrys Rumfass mit Sprengstoff füllen.",
+    "question": "Baroque Works manipuliert den Kampf der Riesen, indem sie Dorrys Rumfass mit Sprengstoff füllen.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Nami erkrankt auf Little Garden an einer gefährlichen Krankheit.",
+    "question": "Nami wird auf Little Garden mit einer mysteriösen Krankheit infiziert.",
     "answer": true,
-    "explanation": "Nami wird von Mr. 3s Partnerin Miss Goldenweek mit einer mysteriösen Krankheit infiziert."
+    "explanation": "Miss Goldenweek infiziert Nami mit einer Krankheit, die nur Mr. 3 heilen kann."
+  },
+  {
+    "question": "Brogy gewinnt den 100-jährigen Kampf gegen Dorry am Ende des Arcs eindeutig.",
+    "answer": false,
+    "explanation": "Der Kampf endet ohne klaren Sieger – beide erkennen die Manipulation durch Baroque Works."
+  },
+  {
+    "question": "Usopp und Chopper kämpfen gemeinsam gegen einen Riesen-Dinosaurier.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Mr. 3 gehört zu den stärksten Offizieren der Baroque Works und ist nahezu unbesiegbar.",
+    "answer": false,
+    "explanation": "Mr. 3 wird von Ruffy relativ leicht besiegt – er ist nicht einer der stärksten Offiziere."
   }
 ]

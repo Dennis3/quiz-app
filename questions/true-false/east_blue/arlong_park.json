@@ -1,38 +1,13 @@
 [
   {
-    "question": "Arlong ist ein Fischmensch und Anführer der Arlong-Piratenbande.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Nami stammt ursprünglich aus dem Dorf Kokoyashi.",
-    "answer": true,
-    "explanation": null
-  },
-  {
     "question": "Namis Adoptivmutter Bellemere wurde von Arlong getötet.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Bellemere wurde getötet, weil sie nicht genug Geld hatte, um für sich selbst zu zahlen, aber Nami und Nojiko zu schützen.",
-    "answer": true,
-    "explanation": "Bellemere konnte nur für zwei Personen zahlen und entschied sich, Nami und Nojiko zu schützen – auf Kosten ihres eigenen Lebens."
-  },
-  {
     "question": "Nami arbeitete freiwillig für Arlong als Navigatorin.",
     "answer": false,
-    "explanation": "Nami arbeitete unter Zwang für Arlong – sie hatte einen Deal, ihr Dorf für 100 Millionen Berry freizukaufen."
-  },
-  {
-    "question": "Arlong behauptet, Fischmenschen seien der überlegenen Rasse.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Zoro wird von Hatchan, einem sechsarmigen Fischmensch, gefangen genommen.",
-    "answer": true,
-    "explanation": null
+    "explanation": "Nami arbeitete unter Zwang für Arlong – mit dem Ziel, ihr Dorf für 100 Millionen Berry freizukaufen."
   },
   {
     "question": "Nojiko ist Namis leibliche Schwester.",
@@ -40,42 +15,57 @@
     "explanation": "Nojiko und Nami sind beide Adoptivkinder von Bellemere – sie sind keine leiblichen Schwestern."
   },
   {
-    "question": "Ruffy versinkt im Wasser und muss von seinen Crewmitgliedern gerettet werden.",
-    "answer": true,
-    "explanation": null
-  },
-  {
     "question": "Nami bittet Ruffy zum ersten Mal um Hilfe, indem sie ihn direkt anspricht.",
     "answer": true,
-    "explanation": "Dies ist ein bedeutender Moment – Nami, die Piraten hasst, bittet Ruffy erstmals um Hilfe."
-  },
-  {
-    "question": "Arlong kämpft mit einem Schwert namens Kiribachi.",
-    "answer": true,
-    "explanation": "Kiribachi ist Arlongs Sägeschwert, das seinem Sägefischmaul nachempfunden ist."
+    "explanation": "Ein bedeutender Moment – Nami, die Piraten hasst, bittet Ruffy erstmals um Hilfe."
   },
   {
     "question": "Ruffy zerstört Arlongs Karten-Zimmer, was Nami emotional sehr bewegt.",
     "answer": true,
-    "explanation": "In diesem Zimmer war Nami jahrelang gefangen und musste Karten zeichnen – die Zerstörung befreit sie symbolisch."
+    "explanation": "In diesem Zimmer war Nami jahrelang gefangen und musste Karten zeichnen."
   },
   {
-    "question": "Arlong wurde von der Marine zuvor bereits einmal verhaftet und freigelassen.",
+    "question": "Arlong wurde von der Marine zuvor bereits einmal verhaftet, aber wieder freigelassen.",
     "answer": true,
     "explanation": "Arlong wurde von Kapitän Nezumi freigelassen, der von Arlong bestochen wurde."
   },
   {
-    "question": "Nach Arlongs Niederlage wird Nami offiziell Mitglied von Ruffys Crew.",
+    "question": "Usopp besiegt Hatchan, den sechsarmigen Fischmenschen, im direkten Kampf.",
+    "answer": false,
+    "explanation": "Usopp kämpft gegen Chew, nicht gegen Hatchan – Hatchan wird von Zoro besiegt."
+  },
+  {
+    "question": "Bellemere war früher eine enge Vertraute von Arlong.",
+    "answer": false,
+    "explanation": "Bellemere war Marine-Soldatin und stand Arlong feindlich gegenüber."
+  },
+  {
+    "question": "Arlong glaubt, dass Menschen und Fischmenschen gleichwertig sind.",
+    "answer": false,
+    "explanation": "Arlong betrachtet Fischmenschen als überlegene Rasse und verachtet Menschen."
+  },
+  {
+    "question": "Genzo, der Dorfvorsteher, war über Namis Geheimabkommen mit Arlong von Anfang an informiert und billigte es.",
+    "answer": false,
+    "explanation": "Genzo wusste zwar davon, war aber alles andere als einverstanden – er versuchte vergeblich, Nami davon abzuhalten."
+  },
+  {
+    "question": "Nami versucht Ruffy zu erstechen, um ihre Loyalität gegenüber Arlong zu beweisen.",
+    "answer": true,
+    "explanation": "Nami täuscht einen Angriff auf Ruffy vor um ihre Tarnung zu wahren – Ruffy lässt sie aus Vertrauen gewähren."
+  },
+  {
+    "question": "Zoro kämpft im Arlong Park Arc gegen Kuroobi, einen Rochen-Fischmenschen.",
+    "answer": false,
+    "explanation": "Sanji kämpft gegen Kuroobi, nicht Zoro."
+  },
+  {
+    "question": "Hatchan, ein sechsarmiger Fischmensch, gehört zu Arlongs Crew.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Sanji kämpft gegen Kuroobi, einen Rochen-Fischmensch.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Usopp besiegt Chew, einen Fischmensch, der Wasser als Waffe einsetzt.",
+    "question": "Nami zerreißt am Ende die Fahne von Arlongs Crew als Zeichen ihrer Befreiung.",
     "answer": true,
     "explanation": null
   }

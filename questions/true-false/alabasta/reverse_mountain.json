@@ -1,8 +1,8 @@
 [
   {
-    "question": "Der Reverse Mountain ist der einzige Eingang zur Grandline von der East Blue aus.",
-    "answer": false,
-    "explanation": "Es gibt insgesamt vier Eingänge zur Grandline – einen für jede Himmelsrichtung."
+    "question": "Es gibt insgesamt vier Eingänge von den vier Blues zur Grandline.",
+    "answer": true,
+    "explanation": null
   },
   {
     "question": "Am Reverse Mountain fließt das Wasser bergauf statt bergab.",
@@ -10,34 +10,19 @@
     "explanation": null
   },
   {
-    "question": "Die Strohhüte treffen am Reverse Mountain auf das Meeresmonster Laboon.",
-    "answer": true,
-    "explanation": null
-  },
-  {
     "question": "Laboon ist ein riesiger Wal, der auf die Rückkehr einer Piratencrew wartet.",
     "answer": true,
-    "explanation": "Laboon wartet seit Jahrzehnten auf die Rückkehr der Brook-Crew, mit der er als junger Wal befreundet war."
+    "explanation": "Laboon wartet seit Jahrzehnten auf die Rückkehr der Brook-Crew."
   },
   {
-    "question": "Crocus ist der Leuchtturmwärter am Reverse Mountain und lebt im Bauch von Laboon.",
-    "answer": true,
-    "explanation": null
+    "question": "Ruffy besiegt Laboon im Kampf und erklärt ihn für endgültig geschlagen.",
+    "answer": false,
+    "explanation": "Ruffy erklärt den Kampf zu einem Unentschieden – das gibt Laboon Hoffnung."
   },
   {
-    "question": "Ruffy besiegt Laboon im Kampf und verspricht ihm, zurückzukehren.",
-    "answer": true,
-    "explanation": "Ruffy kämpft gegen Laboon und erklärt es zu einem Unentschieden – das gibt Laboon Hoffnung und hält ihn davon ab, sich am Felsen zu verletzen."
-  },
-  {
-    "question": "Mr. 9 und Miss Wednesday greifen die Strohhüte am Reverse Mountain an.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Das Log Pose ist ein Navigationsgerät das auf der Grandline benötigt wird.",
-    "answer": true,
-    "explanation": null
+    "question": "Crocus lebt direkt auf dem Rücken von Laboon, nicht in seinem Bauch.",
+    "answer": false,
+    "explanation": "Crocus lebt im Bauch von Laboon."
   },
   {
     "question": "Crocus war früher Schiffsarzt auf Rogers Piratenschiff.",
@@ -45,8 +30,23 @@
     "explanation": null
   },
   {
-    "question": "Die Strohhüte nehmen Mr. 9 und Miss Wednesday freiwillig mit zur nächsten Insel.",
+    "question": "Das Log Pose zeigt immer in Richtung Norden, egal wo man sich befindet.",
+    "answer": false,
+    "explanation": "Das Log Pose zeigt zur nächsten Insel auf der Grandline – nicht immer Richtung Norden."
+  },
+  {
+    "question": "Miss Wednesday bittet die Strohhüte, sie nach Whisky Peak mitzunehmen.",
     "answer": true,
-    "explanation": "Miss Wednesday bittet die Strohhüte, sie nach Whisky Peak mitzunehmen."
+    "explanation": null
+  },
+  {
+    "question": "Mr. 9 und Miss Wednesday greifen die Strohhüte sofort feindlich an, als sie sich treffen.",
+    "answer": false,
+    "explanation": "Sie geben sich zunächst als hilflose Schiffbrüchige aus und bitten um Mitnahme."
+  },
+  {
+    "question": "Die Going Merry muss vor dem Reverse Mountain abgewrackt werden, da sie den Aufstieg nicht überstehen würde.",
+    "answer": false,
+    "explanation": "Die Going Merry segelt problemlos über den Reverse Mountain auf die Grandline."
   }
 ]

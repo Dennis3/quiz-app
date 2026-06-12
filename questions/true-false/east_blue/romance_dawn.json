@@ -5,11 +5,6 @@
     "explanation": null
   },
   {
-    "question": "Ruffy wurde von Shanks persönlich das Schwimmen beigebracht.",
-    "answer": false,
-    "explanation": "Ruffy kann nicht schwimmen, da er eine Teufelsfrucht gegessen hat. Shanks hat ihm das Schwimmen nie beigebracht."
-  },
-  {
     "question": "Shanks verlor seinen Arm, um Ruffy vor einem Meeresmonster zu retten.",
     "answer": true,
     "explanation": null
@@ -20,7 +15,7 @@
     "explanation": "Shanks gab Ruffy den Strohhut als Pfand – Ruffy soll ihn zurückgeben, wenn er ein großer Pirat geworden ist."
   },
   {
-    "question": "Ruffys Kindheitsfreund Shanks ist ein Mitglied der Sieben Samurai.",
+    "question": "Shanks ist eines der Mitglieder der Sieben Samurai.",
     "answer": false,
     "explanation": "Shanks ist einer der Vier Kaiser, nicht Mitglied der Sieben Samurai."
   },
@@ -30,48 +25,53 @@
     "explanation": null
   },
   {
-    "question": "Ruffy erklärte sein Ziel, König der Piraten zu werden, erst nachdem Shanks die Insel verlassen hatte.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Die Gomu Gomu no Mi verwandelt den Körper des Essers in Gummi.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Shanks und seine Crew blieben mehrere Jahre auf Ruffys Heimatinsel.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Ruffy konnte Shanks' Crew durch seine Stärke beeindrucken, bevor er die Teufelsfrucht aß.",
-    "answer": false,
-    "explanation": "Ruffy war als Kind schwach und konnte niemanden beeindrucken – er aß die Teufelsfrucht aus Versehen."
-  },
-  {
-    "question": "Der Bandit Higuma beleidigte Shanks und seine Crew in der Taverne.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Shanks reagierte auf Higumas Beleidigung mit sofortiger Gewalt.",
-    "answer": false,
-    "explanation": "Shanks ließ die Beleidigung ruhig über sich ergehen und lachte es ab – er wollte keinen Konflikt."
-  },
-  {
     "question": "Ruffy aß die Gomu Gomu no Mi absichtlich, weil er Pirat werden wollte.",
     "answer": false,
     "explanation": "Ruffy aß die Frucht aus Versehen – er wusste nicht, dass es eine Teufelsfrucht war."
   },
   {
-    "question": "Nach dem Zeitsprung bricht Ruffy als 17-Jähriger auf, um Pirat zu werden.",
+    "question": "Shanks reagierte auf Higumas Beleidigung in der Taverne mit sofortiger Gewalt.",
+    "answer": false,
+    "explanation": "Shanks ließ die Beleidigung ruhig über sich ergehen und lachte es ab – er wollte keinen Konflikt."
+  },
+  {
+    "question": "Ruffy konnte Shanks' Crew durch seine Stärke beeindrucken, bevor er die Teufelsfrucht aß.",
+    "answer": false,
+    "explanation": "Ruffy war als Kind schwach und konnte niemanden beeindrucken."
+  },
+  {
+    "question": "Ruffys Heimatdorf heißt Fuchsia Village.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Ruffys erstes Ziel nach dem Aufbruch war es, Zoro als Crewmitglied zu rekrutieren.",
+    "question": "Ruffy bricht als 17-Jähriger auf, um Pirat zu werden.",
     "answer": true,
     "explanation": null
+  },
+  {
+    "question": "Shanks und seine Crew verbrachten etwa ein Jahr in Ruffys Heimatdorf.",
+    "answer": false,
+    "explanation": "Shanks und seine Crew blieben mehrere Jahre in Ruffys Heimatdorf."
+  },
+  {
+    "question": "Makino, die Wirtin der Taverne, war eine vertraute Person für Ruffy in seiner Kindheit.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Der Bandit Higuma entführte Ruffy und warf ihn ins Meer.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Ruffys Großvater Garp wollte, dass Ruffy Marine-Soldat wird.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Ruffy erklärte sein Ziel König der Piraten zu werden schon bevor Shanks die Insel verließ.",
+    "answer": false,
+    "explanation": "Ruffy erklärte sein Ziel erst nachdem Shanks und seine Crew die Insel verlassen hatten."
   }
 ]

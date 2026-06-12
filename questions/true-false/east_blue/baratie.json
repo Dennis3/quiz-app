@@ -1,82 +1,72 @@
 [
   {
-    "question": "Das Baratie ist ein schwimmendes Restaurant auf dem Meer.",
+    "question": "Usopp ist der Sohn des Piraten Yasopp, der in Shanks' Crew segelt.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Sanji ist der Chefkoch des Baratie.",
+    "question": "Usopp ist dafür bekannt, immer die Wahrheit zu sagen.",
     "answer": false,
-    "explanation": "Zeff ist der Chefkoch und Besitzer des Baratie. Sanji ist einer der Köche."
+    "explanation": "Usopp ist berühmt für seine Lügen – er erfindet ständig Geschichten und übertreibt maßlos."
   },
   {
-    "question": "Sanji kämpft ausschließlich mit seinen Beinen und benutzt nie seine Hände im Kampf.",
-    "answer": true,
-    "explanation": "Sanji kämpft nur mit seinen Beinen, um seine Hände als Koch zu schützen."
-  },
-  {
-    "question": "Zeff und Sanji saßen einst gemeinsam auf einer Felseninsel fest und drohten zu verhungern.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Zeff aß seinen eigenen Fuß auf, um zu überleben, während er Sanji das gesamte Essen gab.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Don Krieg ist der Antagonist des Baratie Arcs.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Don Krieg wird als der stärkste Pirat der East Blue bezeichnet.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Gin ist Don Kriegs erster Offizier und zeigt Sanji gegenüber Dankbarkeit.",
-    "answer": true,
-    "explanation": "Sanji gab Gin zu essen als er halb verhungert ankam – Gin vergisst das nicht."
-  },
-  {
-    "question": "Sanji besiegt Don Krieg im Finale des Arcs.",
+    "question": "Kuros Plan war es, Kayas Vermögen zu erben indem er sie heiratet.",
     "answer": false,
-    "explanation": "Ruffy besiegt Don Krieg am Ende des Arcs."
+    "explanation": "Kuros Plan war es, Kaya im Schlaf zu töten und ihr Testament zu fälschen, um ihr Vermögen zu bekommen."
   },
   {
-    "question": "Mihawk taucht im Baratie Arc auf und besiegt Zoro im Duell.",
+    "question": "Usopp gründete als Kind eine eigene kleine Piratenbande aus Dorfkindern.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Zoro fordert Mihawk zum Kampf heraus, um seiner Ambition als weltbester Schwertkämpfer näher zu kommen.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Mihawk besiegt Zoro mit einem kleinen Messer, das er am Hals trägt.",
-    "answer": true,
-    "explanation": "Mihawk trägt ein kleines Kreuz-förmiges Messer als Anhänger und besiegt Zoro damit."
-  },
-  {
-    "question": "Sanji verlässt das Baratie sofort ohne Zögern, um Ruffy zu folgen.",
+    "question": "Nami kämpft gegen Kuro und besiegt ihn.",
     "answer": false,
-    "explanation": "Sanji zögert lange – das Baratie ist sein Zuhause und Zeff bedeutet ihm viel. Er verabschiedet sich bewegt."
+    "explanation": "Ruffy kämpft gegen Kuro und besiegt ihn."
   },
   {
-    "question": "Don Kriegs Rüstung macht ihn unverwundbar gegen Ruffys Angriffe.",
+    "question": "Zoro kämpft alleine gegen die Zwillinge Siam und Butchie, ohne Hilfe von Usopp.",
     "answer": false,
-    "explanation": "Ruffys Gummi-Körper und seine Stärke durchbrechen letztendlich Don Kriegs Rüstung."
+    "explanation": "Zoro kämpft zusammen mit Usopp gegen die Zwillinge – Zoro übernimmt aber den Großteil des Kampfes."
   },
   {
-    "question": "Nami stiehlt die Going Merry während des Kampfes am Baratie und segelt davon.",
+    "question": "Usopp warnt das Dorf vor dem Angriff der Piraten, wird aber zunächst nicht ernst genommen.",
+    "answer": true,
+    "explanation": "Da Usopp ständig lügt, glaubt ihm niemand – auch nicht wenn er die Wahrheit sagt."
+  },
+  {
+    "question": "Kaya schenkt Ruffy und seiner Crew am Ende das Schiff Going Merry.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Sanji schließt sich Ruffys Crew am Ende des Baratie Arcs an.",
+    "question": "Kuros Klingen befinden sich an seinen Fingern.",
     "answer": true,
     "explanation": null
+  },
+  {
+    "question": "Kuro war vor seiner Zeit als Pirat als gefährlicher Kopfgeldjäger bekannt.",
+    "answer": false,
+    "explanation": "Kuro war vorher selbst ein gesuchter Pirat mit hohem Kopfgeld, kein Kopfgeldjäger."
+  },
+  {
+    "question": "Kuro plante seinen Anschlag auf Kaya seit drei Jahren.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Merry, der ehemalige Schiffsbauer der Familie, half den Strohhüten heimlich gegen Kuros Crew.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Zoro wird von Kuro selbst schwer verwundet, bevor Ruffy eingreift.",
+    "answer": false,
+    "explanation": "Zoro kämpft gegen die Zwillinge, nicht gegen Kuro – Ruffy ist es, der gegen Kuro kämpft."
+  },
+  {
+    "question": "Klahadore, Kayas Butler, behandelte Usopp von Anfang an mit Respekt.",
+    "answer": false,
+    "explanation": "Klahadore verachtete Usopp und versuchte ihn mehrfach vom Anwesen zu vertreiben."
   }
 ]

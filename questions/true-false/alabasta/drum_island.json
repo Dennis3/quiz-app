@@ -5,54 +5,34 @@
     "explanation": null
   },
   {
-    "question": "Chopper ist ein Rentier, das die Hito Hito no Mi gegessen hat.",
+    "question": "Chopper aß die Hito Hito no Mi, eine Zoan-Frucht die menschliche Fähigkeiten verleiht.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Die Hito Hito no Mi ist eine Zoan-Teufelsfrucht, die Chopper menschliche Fähigkeiten verleiht.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Dr. Kureha ist Choppers Lehrerin und eine sehr alte aber vitale Ärztin.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Wapol ist der rechtmäßige und beliebte König von Drum Island.",
+    "question": "Wapol ist ein beliebter und gerechter König von Drum Island.",
     "answer": false,
-    "explanation": "Wapol ist ein tyrannischer König, der die Insel terrorisierte und alle Ärzte bis auf seine eigenen verbannte."
+    "explanation": "Wapol ist ein tyrannischer König, der die Insel terrorisierte und alle Ärzte verbannte."
   },
   {
-    "question": "Wapol aß eine Teufelsfrucht, die es ihm erlaubt alles zu essen und zu absorbieren.",
+    "question": "Wapol kann durch seine Teufelsfrucht Dinge essen und sich daraus Körperteile formen.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Choppers Mentor und Vaterfigur war Dr. Hiluluk, ein Quacksalber mit einem großen Herz.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Dr. Hiluluk stirbt, nachdem er irrtümlich glaubt, Chopper habe ihn vergiftet.",
+    "question": "Dr. Hiluluk stirbt, weil er glaubt Chopper habe ihn vergiftet.",
     "answer": false,
-    "explanation": "Hiluluk opfert sich selbst – er sprengt sich in die Luft nachdem Wapol ihn in eine Falle gelockt hat."
+    "explanation": "Hiluluk opfert sich selbst – er sprengt sich in einer Falle Wapols in die Luft."
   },
   {
-    "question": "Ruffy trägt Nami auf dem Rücken einen verschneiten Berg hinauf um zum Arzt zu gelangen.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Chopper hat insgesamt sieben verschiedene Kampfformen durch seinen Rumble Ball.",
+    "question": "Ruffy trägt Nami auf dem Rücken einen verschneiten Berg hinauf, um zum Arzt zu gelangen.",
     "answer": true,
     "explanation": null
   },
   {
     "question": "Chopper wird von den Dorfbewohnern als Monster betrachtet und ausgegrenzt.",
     "answer": true,
-    "explanation": "Chopper gehört weder zur Welt der Rentiere noch zur Welt der Menschen und wird von beiden abgelehnt."
+    "explanation": "Chopper gehört weder zur Welt der Rentiere noch zur Welt der Menschen."
   },
   {
     "question": "Chopper schließt sich Ruffys Crew als Schiffskoch an.",
@@ -60,7 +40,22 @@
     "explanation": "Chopper schließt sich als Schiffsarzt an – der Koch ist Sanji."
   },
   {
-    "question": "Hiluluk träumte davon, eine Krankheit namens das kranke Herz der Menschen zu heilen.",
+    "question": "Dr. Kureha ist eine junge, unerfahrene Ärztin auf Drum Island.",
+    "answer": false,
+    "explanation": "Dr. Kureha ist sehr alt, aber äußerst erfahren und vital."
+  },
+  {
+    "question": "Hiluluks Traum war es, eine Krankheit namens 'das kranke Herz der Menschen' zu heilen.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Wapol kehrt nach seiner Niederlage gegen Ruffy nie wieder in der Serie auf.",
+    "answer": false,
+    "explanation": "Wapol taucht später erneut in der Serie auf, unter anderem in Impel Down."
+  },
+  {
+    "question": "Chopper kann durch den Rumble Ball mehrere verschiedene Kampfformen annehmen.",
     "answer": true,
     "explanation": null
   }

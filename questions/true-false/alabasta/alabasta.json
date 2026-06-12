@@ -1,0 +1,102 @@
+[
+  {
+    "question": "Crocodile aß die Suna Suna no Mi und kann sich in Sand verwandeln.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Crocodiles Schwachstelle ist Wasser, das seinen Sandkörper bindet.",
+    "answer": true,
+    "explanation": "Ruffy entdeckt, dass Flüssigkeit Crocodiles Sandkörper greifbar macht."
+  },
+  {
+    "question": "Ruffy besiegt Crocodile bereits beim ersten Aufeinandertreffen.",
+    "answer": false,
+    "explanation": "Ruffy verliert die ersten beiden Kämpfe gegen Crocodile – erst beim dritten gewinnt er."
+  },
+  {
+    "question": "Robin aß die Mera Mera no Mi und kann ihren Körper in Feuer verwandeln.",
+    "answer": false,
+    "explanation": "Robin aß die Hana Hana no Mi, nicht die Mera Mera no Mi."
+  },
+  {
+    "question": "Vivi tritt am Ende des Arabasta Arcs offiziell als Crewmitglied der Strohhüte bei.",
+    "answer": false,
+    "explanation": "Vivi reist mit den Strohhüten, bleibt aber in Alabasta um ihr Land zu schützen."
+  },
+  {
+    "question": "Crocodile wollte das Poneglyph in Alabasta nutzen, um die Pluton-Waffe zu finden.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Die Rebellion in Alabasta entstand aus einem echten, langjährigen Konflikt zwischen Volk und König.",
+    "answer": false,
+    "explanation": "Baroque Works heizte die Rebellion künstlich an, unter anderem durch das Verhindern von Regen."
+  },
+  {
+    "question": "Mr. 1 besiegt Zoro im Kampf, da seine Klingen-Arme zu stark sind.",
+    "answer": false,
+    "explanation": "Zoro besiegt Mr. 1, indem er lernt auch Stahl zu durchschneiden."
+  },
+  {
+    "question": "Sanji kämpft gegen Mr. 2 Bon Clay, der das Gesicht jedes berührten Menschen annehmen kann.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "König Cobra stirbt am Ende des Arabasta Arcs.",
+    "answer": false,
+    "explanation": "König Cobra überlebt den Arc."
+  },
+  {
+    "question": "Robin verlässt nach Crocodiles Niederlage die Insel und wird nie wieder erwähnt.",
+    "answer": false,
+    "explanation": "Robin schließt sich nach Crocodiles Niederlage Ruffys Crew an."
+  },
+  {
+    "question": "Pell, der Wächter von Alabasta, stirbt beim Entschärfen einer Bombe über der Stadt.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Ruffy besiegt Crocodile am Ende mit Hilfe seines eigenen Blutes, das als Flüssigkeit dient.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Mr. 2 Bon Clay wird im Kampf gegen Sanji getötet.",
+    "answer": false,
+    "explanation": "Bon Clay überlebt den Kampf und taucht später erneut in der Serie auf."
+  },
+  {
+    "question": "Nami kämpft im Alabasta Arc noch ohne Clima-Tact, nur mit ihrem Stab.",
+    "answer": false,
+    "explanation": "Nami nutzt bereits ihren neu entwickelten Clima-Tact gegen Miss Doublefinger."
+  },
+  {
+    "question": "Crocodile ist zu diesem Zeitpunkt eines der Sieben Samurai der Weltregierung.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Igaram stirbt bei einem Angriff durch Mr. 0 in Alabasta.",
+    "answer": false,
+    "explanation": "Igaram überlebt den Angriff – er wird zwar schwer verletzt, stirbt aber nicht."
+  },
+  {
+    "question": "Usopp, Chopper und Nami kämpfen gemeinsam gegen Miss Merry Christmas und Mr. 4.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Vivis Vater König Cobra glaubt von Anfang an an Crocodiles Loyalität gegenüber Alabasta.",
+    "answer": true,
+    "explanation": "Cobra vertraut Crocodile lange, da dieser sich als Wohltäter des Landes inszeniert hatte."
+  },
+  {
+    "question": "Der Regen am Ende des Arcs beendet die Rebellion und versöhnt das Volk mit dem König.",
+    "answer": true,
+    "explanation": null
+  }
+]

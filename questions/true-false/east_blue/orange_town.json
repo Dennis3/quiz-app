@@ -1,56 +1,16 @@
 [
   {
-    "question": "Nami schließt sich Ruffy und Zoro in Orange Town an.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Der Hauptantagonist in Orange Town ist Kapitän Kuro.",
-    "answer": false,
-    "explanation": "Der Antagonist in Orange Town ist Kapitän Buggy der Clown."
-  },
-  {
     "question": "Buggy aß die Bara Bara no Mi, die seinen Körper in Teile zerlegen lässt.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Buggy und Shanks waren früher zusammen in derselben Piratencrew.",
-    "answer": true,
-    "explanation": "Buggy und Shanks fuhren beide unter Gol D. Roger als Mitglieder der Roger-Piratenbande."
-  },
-  {
-    "question": "Nami stiehlt Buggys Schatz und nutzt ihn als Ablenkung.",
+    "question": "Buggy und Shanks fuhren früher beide unter Gol D. Roger.",
     "answer": true,
     "explanation": null
-  },
-  {
-    "question": "Shushu ist der Hund, der die Tierhandlung seines verstorbenen Besitzers bewacht.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Buggy wird von Ruffy im direkten Kampf besiegt, indem Ruffy seine Nase trifft.",
-    "answer": false,
-    "explanation": "Ruffy besiegt Buggy mit dem Gum-Gum Cannon – Buggys Schwachstelle ist sein Fuß, der nicht von der Frucht betroffen ist."
   },
   {
     "question": "Buggy kann durch seine Teufelsfrucht keine Schnittwunden erleiden.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Mohji ist Buggys erster Offizier und hat einen Löwen namens Richie.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Cabaji ist Buggys Akrobat und kämpft auf einem Einrad.",
-    "answer": true,
-    "explanation": null
-  },
-  {
-    "question": "Zoro kämpft gegen Cabaji obwohl er bereits verwundet ist.",
     "answer": true,
     "explanation": null
   },
@@ -65,17 +25,57 @@
     "explanation": "Buggy verliert die Kontrolle über seine Körperteile wenn seine Hände gefesselt sind."
   },
   {
-    "question": "Orange Town ist eine fast verlassene Stadt, weil Buggys Crew die Bewohner vertrieben hat.",
+    "question": "Mohji ist Buggys erster Offizier und hat einen Löwen namens Richie.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Ruffy benutzt Buggys abgetrennten Kopf als Waffe gegen ihn.",
+    "question": "Cabaji besiegt Zoro im Kampf auf dem Einrad.",
+    "answer": false,
+    "explanation": "Zoro besiegt Cabaji – trotz seiner bereits vorhandenen Verletzungen."
+  },
+  {
+    "question": "Shushu bewacht die Tierhandlung seines verstorbenen Besitzers.",
     "answer": true,
     "explanation": null
   },
   {
-    "question": "Buggy besitzt einen Schatz den er seit seiner Zeit auf dem Grandline gesammelt hat.",
+    "question": "Ruffy besiegt Buggy indem er dessen Füße trifft, da diese nicht von der Frucht betroffen sind.",
+    "answer": true,
+    "explanation": null
+  },
+  {
+    "question": "Nami schließt sich Ruffy bereits in Orange Town offiziell als Crewmitglied an.",
+    "answer": false,
+    "explanation": "Nami arbeitet zwar mit Ruffy zusammen, tritt der Crew aber erst nach dem Arlong Park Arc offiziell bei."
+  },
+  {
+    "question": "Buggy kämpft ausschließlich mit bloßen Fäusten, ohne jegliche Waffen.",
+    "answer": false,
+    "explanation": "Buggy nutzt Buggy Balls und seine Messer als Waffen."
+  },
+  {
+    "question": "Richie, Mohijis Löwe, greift Buggys eigene Crew an.",
+    "answer": true,
+    "explanation": "Nach Buggys Niederlage versucht Richie die Führung der Crew zu übernehmen."
+  },
+  {
+    "question": "Buggy hatte die Gomu Gomu no Mi in seinem Besitz bevor Ruffy sie aß.",
+    "answer": false,
+    "explanation": "Es war Shanks' Schiff auf dem die Frucht aufbewahrt wurde – Buggy hatte sie nie in seinem Besitz."
+  },
+  {
+    "question": "Buggy ist während des gesamten Kampfes gegen Ruffy körperlich unversehrt.",
+    "answer": false,
+    "explanation": "Ruffy nutzt sogar Buggys abgetrennten Kopf als Waffe gegen ihn."
+  },
+  {
+    "question": "Orange Town war zum Zeitpunkt von Ruffys Ankunft komplett verlassen.",
+    "answer": false,
+    "explanation": "Einige Bewohner waren noch da – unter anderem der Bürgermeister Boodle und Shushu."
+  },
+  {
+    "question": "Nami stiehlt Buggys Schatz während des Chaos im Kampf.",
     "answer": true,
     "explanation": null
   }
